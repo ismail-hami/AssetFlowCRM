@@ -11,13 +11,17 @@ env/
 *.sqlite3
 db.sqlite3
 
-# EspoCRM core dependencies (réinstallables)
+# EspoCRM core dependencies
 vendor/
 node_modules/
 client/lib/
 
-# EspoCRM runtime data
-data/upload/
-data/cache/
-data/tmp/
-data/logs/
+# EspoCRM runtime data (chemin complet depuis la racine du repo)
+app/data/upload/
+app/data/cache/
+app/data/tmp/
+app/data/logs/
+app/public/php_errors.log
+app/public/test-write.php
+app/public/test-output.txt
+app/indexx.txt
