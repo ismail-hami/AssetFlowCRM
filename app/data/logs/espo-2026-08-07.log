@@ -1,0 +1,133 @@
+[2026-08-07 12:05:42] WARNING: E_WARNING: rename(data\tmp\tmpC635.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-07 12:05:43] WARNING: E_WARNING: rename(data\tmp\tmpC943.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-07 12:05:43] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-07 12:06:19] CRITICAL: (500) Before-save formula script failed. function: string\split, index: 2, should be: string :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Formula\Functions\BaseFunction.php(135)
+[2026-08-07 12:07:03] CRITICAL: (500) Before-save formula script failed. function: string\split, index: 2, should be: string :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Formula\Functions\BaseFunction.php(135)
+[2026-08-07 12:07:37] CRITICAL: (500) Before-save formula script failed. function: string\split, index: 2, should be: string :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Formula\Functions\BaseFunction.php(135)
+[2026-08-07 12:09:04] CRITICAL: (500) Before-save formula script failed. Unknown function: array\create :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Formula\FunctionFactory.php(87)
+[2026-08-07 12:09:19] CRITICAL: (500) Before-save formula script failed. Unknown function: array\create :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Formula\FunctionFactory.php(87)
+[2026-08-07 14:32:48] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:32:48] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:32:48] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:32:48] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:33:22] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:33:22] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:33:22] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:33:22] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:34:49] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:34:49] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:34:49] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:34:49] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:35:10] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:35:10] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:35:10] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:35:10] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:35:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:35:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:35:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:35:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:35:56] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:35:56] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:35:56] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:35:56] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 4
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute style redefined in Entity, line: 4
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 4
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute style redefined in Entity, line: 4
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:36:27] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:37:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:37:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:37:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:37:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:40:19] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:40:19] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:40:19] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:40:19] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:40:59] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:40:59] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:40:59] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:40:59] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:43:05] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:43:05] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:43:05] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:43:05] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:44:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:44:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:44:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:44:33] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 61
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 66
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 71
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 61
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 66
+[2026-08-07 14:46:51] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 71
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 61
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 66
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 71
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 61
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 66
+[2026-08-07 14:49:45] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : span in Entity, line: 71
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 61
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 65
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 72
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : br in Entity, line: 72
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 61
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 65
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 72
+[2026-08-07 14:51:06] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : br in Entity, line: 72
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 62
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 82
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : br in Entity, line: 82
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 62
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 82
+[2026-08-07 14:51:38] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : br in Entity, line: 82
+[2026-08-07 14:52:14] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:52:14] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:52:14] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:52:14] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:52:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:52:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:52:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:52:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:53:50] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:53:50] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:53:50] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:53:50] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:54:13] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:54:13] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 14:54:13] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-07 14:54:13] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-07 15:15:56] WARNING: E_WARNING: rename(data\tmp\tmp289.tmp,data/cache/application/metadata.php): Access is denied (code: 5)
+[2026-08-07 15:15:56] WARNING: E_WARNING: rename(data\tmp\tmp289.tmp,data/cache/application/metadata.php): Access is denied (code: 5)
+[2026-08-07 15:15:56] WARNING: E_WARNING: rename(data\tmp\tmp289.tmp,data/cache/application/metadata.php): Access is denied (code: 5)
+[2026-08-07 15:16:07] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:07] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:09] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:09] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:51] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:51] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:52] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:58] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 15:16:58] CRITICAL: (22007) SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Never' for column `espocrm_db`.`c_licenes`.`license_expires` at row 18 :: POST /CLicenes/action/refreshExpiry :: C:\inetpub\wwwroot\AssetFlowCRM\custom\Espo\Custom\Api\RefreshLicenseExpiry.php(50)
+[2026-08-07 17:01:58] WARNING: E_WARNING: rename(data\tmp\tmp16CC.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2026-08-07 17:01:58] WARNING: E_WARNING: rename(data\tmp\tmp16CC.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2026-08-07 17:06:20] WARNING: (403) No access to attachment. :: GET / :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\EntryPoints\Attachment.php(70)

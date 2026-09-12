@@ -1,0 +1,4 @@
+[2026-07-27 14:31:19] WARNING: E_WARNING: mkdir(): File exists
+[2026-07-27 14:31:19] WARNING: E_WARNING: rename(data\tmp\tmpB0B7.tmp,data/cache/application/objMetadata.php): Access is denied (code: 5)
+[2026-07-27 14:31:21] WARNING: E_WARNING: rename(data\tmp\tmpBB54.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-07-27 14:31:27] WARNING: E_WARNING: rename(data\tmp\tmpD2CA.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)

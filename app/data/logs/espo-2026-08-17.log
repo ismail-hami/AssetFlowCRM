@@ -1,0 +1,7 @@
+[2026-08-17 14:56:09] WARNING: E_WARNING: rename(data\tmp\tmp8EBE.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2026-08-17 15:01:57] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-17 15:01:57] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-17 15:01:57] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-17 15:01:57] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-17 15:25:41] ERROR: (0) Error in 'equal gA \'Certificat de Travail': expect ''' but the token ended!! :: GET / :: C:\inetpub\wwwroot\AssetFlowCRM\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-08-17 15:26:15] ERROR: (0) Error in 'equal gA \'Certificat de Travail': expect ''' but the token ended!! :: GET / :: C:\inetpub\wwwroot\AssetFlowCRM\vendor\zordius\lightncandy\src\LightnCandy.php(108)

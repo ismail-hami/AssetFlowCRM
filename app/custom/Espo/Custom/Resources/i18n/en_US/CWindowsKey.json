@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "computerName": "Computer Name",
+        "windowsLicenceKey": "Windows License Key"
+    },
+    "links": [],
+    "labels": {
+        "Create CWindowsKey": "Create Clé Windows"
+    }
+}

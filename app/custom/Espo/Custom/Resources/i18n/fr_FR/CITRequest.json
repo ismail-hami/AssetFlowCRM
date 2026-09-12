@@ -1,0 +1,21 @@
+{
+    "labels": {
+        "Create CITRequest": "Créer une demande IT",
+        "Overview": "Coordonnées et informations"
+    },
+    "fields": {
+        "position": "Rôle",
+        "profuctname": "Nom du produit",
+        "managerFullName": "Manager",
+        "name": "Nom complet",
+        "statuss": "Statut"
+    },
+    "options": {
+        "statuss": {
+            "accepted": "Accepté",
+            "pending": "En attente",
+            "refused": "Refusé",
+            "Processing": "En cours"
+        }
+    }
+}

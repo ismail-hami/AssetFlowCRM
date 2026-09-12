@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "wS": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "systemeDexploitation",
+                        "value": "Other"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "systemeDexploitation",
+                        "value": "Other"
+                    }
+                ]
+            }
+        }
+    }
+}

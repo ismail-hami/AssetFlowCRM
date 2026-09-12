@@ -1,0 +1,24 @@
+name,categoryId,categoryName,quantity,status
+"Mouse Pad",cd1d7e3e-7f99-11f,"Computer Assets",10,Available
+Mouse,cd1d7e3e-7f99-11f,"Computer Assets",8,Available
+Keyboard,cd1d7e3e-7f99-11f,"Computer Assets",9,Available
+"GPU Graphics Card",cd1d7e3e-7f99-11f,"Computer Assets",6,Available
+"HDD 1TB",cd1d7e3e-7f99-11f,"Computer Assets",0,"Not Available"
+"HDD 512GB",cd1d7e3e-7f99-11f,"Computer Assets",2,Available
+"NVMe SSD",cd1d7e3e-7f99-11f,"Computer Assets",2,Available
+"SSD 2TB",cd1d7e3e-7f99-11f,"Computer Assets",1,Available
+"SSD 1TB",cd1d7e3e-7f99-11f,"Computer Assets",2,Available
+"SSD 512GB",cd1d7e3e-7f99-11f,"Computer Assets",3,Available
+"SSD 256GB",cd1d7e3e-7f99-11f,"Computer Assets",5,Available
+"RAM 16GB",cd1d7e3e-7f99-11f,"Computer Assets",3,Available
+"RAM 8GB",cd1d7e3e-7f99-11f,"Computer Assets",7,Available
+"RAM 4GB",cd1d7e3e-7f99-11f,"Computer Assets",8,Available
+"Network Cable",cd1d693e-7f99-11f,Cables,49,Available
+"HDMI Cable",cd1d693e-7f99-11f,Cables,19,Available
+"Power Cable",cd1d693e-7f99-11f,Cables,29,Available
+"Single-Mode Fiber Optic Cable",cd1d693e-7f99-11f,Cables,1,Available
+"Display Cable",cd1d693e-7f99-11f,Cables,29,Available
+"Port Display to Mini Display Cable",cd1d693e-7f99-11f,Cables,10,Available
+"Display to Mini Display Cable",cd1d693e-7f99-11f,Cables,10,Available
+"HDMI to Mini Display Adapter",cd1d693e-7f99-11f,Cables,23,Available
+"HDMI to Display Adapter",cd1d693e-7f99-11f,Cables,16,Available

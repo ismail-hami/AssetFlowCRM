@@ -1,0 +1,22 @@
+[
+    {
+        "name": "seats",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "expires",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "mtnExpires",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "reactivationDate",
+        "width": 25,
+        "align": "left"
+    }
+]

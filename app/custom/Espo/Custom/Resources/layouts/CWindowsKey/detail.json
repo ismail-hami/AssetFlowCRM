@@ -1,0 +1,18 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "computerName"
+                }
+            ],
+            [
+                {
+                    "name": "windowsLicenceKey"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

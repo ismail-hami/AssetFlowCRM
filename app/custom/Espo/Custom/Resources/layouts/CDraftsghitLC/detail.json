@@ -1,0 +1,29 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "license"
+                },
+                {
+                    "name": "seats"
+                }
+            ],
+            [
+                {
+                    "name": "expires"
+                }
+            ],
+            [
+                {
+                    "name": "mtnExpires"
+                },
+                {
+                    "name": "reactivationDate"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

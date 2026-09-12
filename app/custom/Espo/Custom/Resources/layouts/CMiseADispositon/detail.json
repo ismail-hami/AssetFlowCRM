@@ -1,0 +1,118 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "gender"
+                },
+                {
+                    "name": "name"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "marque"
+                },
+                {
+                    "name": "ram"
+                }
+            ],
+            [
+                {
+                    "name": "model"
+                }
+            ],
+            [
+                {
+                    "name": "numeroDeSerie"
+                }
+            ],
+            [
+                {
+                    "name": "systemeDexploitation"
+                },
+                {
+                    "name": "wS"
+                }
+            ],
+            [
+                {
+                    "name": "processeur"
+                },
+                {
+                    "name": "carteGraphique"
+                }
+            ],
+            [
+                {
+                    "name": "disqueDur1"
+                },
+                {
+                    "name": "disqueDur2"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Ordinateur Portable"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "accessoire1"
+                },
+                {
+                    "name": "accessoire2"
+                }
+            ],
+            [
+                {
+                    "name": "accessoire3"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Accessoires fournis"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "valeurDordinateur"
+                }
+            ],
+            [
+                {
+                    "name": "valeurDecran"
+                },
+                {
+                    "name": "valeurDuCasque"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "hidden": false,
+        "noteText": null,
+        "noteStyle": "info",
+        "customLabel": "Valeur des actifs"
+    }
+]

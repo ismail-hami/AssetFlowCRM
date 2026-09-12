@@ -1,0 +1,28 @@
+{
+    "scopeNames": {
+        "CProduct": "Équipement",
+        "CCategory": "Category",
+        "CSoftware": "Logiciel",
+        "Case": "Requests",
+        "CITRequest": "Demande IT",
+        "CHRRequest": "Demande RH",
+        "CLicenes": "Licence SW",
+        "CWindowsKey": "Clé Windows",
+        "CComputer": "Ordinateur",
+        "CDraftsghitLC": "Licence DraftSight",
+        "CMiseADispositon": "Mise a dispositon"
+    },
+    "scopeNamesPlural": {
+        "CProduct": "Équipements",
+        "CCategory": "Categories",
+        "CSoftware": "Logiciels",
+        "Case": "Requests",
+        "CITRequest": "Demande IT",
+        "CHRRequest": "Demande RH",
+        "CLicenes": "Licences SW",
+        "CWindowsKey": "Clés Windows",
+        "CComputer": "Ordinateurs",
+        "CDraftsghitLC": "Licences DraftSight",
+        "CMiseADispositon": "Mise a dispositon"
+    }
+}

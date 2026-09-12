@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sauvegarde — AssetFlow ERP</title>
+<meta name="description" content="Exemples de scripts pour automatiser la sauvegarde et la restauration d'AssetFlow ERP (base de données et fichiers).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="backup">
+
+<div id="progress"></div>
+<div class="bg-grid"></div>
+<div class="glow"></div>
+
+<div class="topbar">
+  <a class="brand" href="index.html">Asset<span>Flow</span> ERP<small>documentation du projet</small></a>
+  <button id="navtoggle" aria-label="Ouvrir le menu">Menu</button>
+  <nav class="pagenav">
+    <a href="index.html" data-page="index">Accueil</a>
+    <a href="installation.html" data-page="installation">Installation</a>
+    <a href="usage.html" data-page="usage">Utilisation</a>
+    <a href="backup.html" data-page="backup">Sauvegarde</a>
+    <a class="gh" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</div>
+
+<div class="layout">
+  <nav class="side" id="sidenav">
+    <div class="grp">
+      <div class="grp-title">SAUVEGARDE</div>
+      <a href="#backup">Script quotidien</a>
+      <a href="#truenas">Copie sur un NAS (TrueNAS)</a>
+      <a href="#restore">Restauration</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="backup">
+      <span class="eyebrow">Sauvegarde</span>
+      <h1>Automatiser la <span>sauvegarde</span></h1>
+      <p class="lead">Deux choses à sauvegarder : la base de données et le dossier de l'application (fichiers uploadés, personnalisations). Les exemples ci-dessous utilisent des chemins génériques — adaptez-les à votre installation.</p>
+
+      <h3>XAMPP / Windows — script <code>.bat</code> + Planificateur de tâches</h3>
+      <div class="codewrap">
+        <pre class="code" data-copy><span class="c">@echo off</span>
+set DATE=%date:~-4%-%date:~3,2%-%date:~0,2%
+set DEST=C:\Backups\AssetFlow\%DATE%
+mkdir "%DEST%"
+
+<span class="c">:: export de la base (chemin XAMPP par défaut)</span>
+C:\xampp\mysql\bin\mysqldump -u root assetflowcrm_db > "%DEST%\espocrm.sql"
+
+<span class="c">:: archive des fichiers de l'application</span>
+powershell Compress-Archive -Path "C:\xampp\htdocs\assetflow\*" -DestinationPath "%DEST%\espocrm_files.zip"
+
+<span class="c">:: copie vers un dossier de sauvegarde / disque externe / NAS</span>
+robocopy "%DEST%" "D:\Sauvegardes\AssetFlow\%DATE%" /E</pre>
+        <button class="copybtn">Copier</button>
+      </div>
+      <p>Planifier ce script avec le <b>Planificateur de tâches Windows</b> pour qu'il s'exécute chaque jour à heure fixe.</p>
+
+      <h3>Docker / Linux — export depuis les conteneurs</h3>
+      <div class="codewrap">
+        <pre class="code" data-copy><span class="c"># dump de la base</span>
+docker exec espocrm-db mysqldump -u espocrm -pchangeme espocrm > backup.sql
+
+<span class="c"># archive du volume applicatif (fichiers, uploads, config)</span>
+docker run --rm -v espocrm:/data -v $(pwd):/backup alpine \
+  tar czf /backup/espocrm_files.tar.gz -C /data .</pre>
+        <button class="copybtn">Copier</button>
+      </div>
+      <p>Ces deux commandes se planifient aussi bien avec le <b>Planificateur de tâches</b> (Windows) qu'avec <code>cron</code> (Linux/Mac), en les regroupant dans un petit script.</p>
+      <div class="callout"><b>Où stocker la copie</b> — gardez toujours une copie hors de la machine qui héberge l'application (disque externe, NAS, autre machine) : une sauvegarde stockée uniquement sur le même disque ne protège pas contre une panne matérielle.</div>
+    </section>
+
+    <section id="truenas">
+      <span class="eyebrow">Sauvegarde — copie distante</span>
+      <h2>Copier les sauvegardes sur un NAS (TrueNAS)</h2>
+      <p class="lead">Un NAS dédié permet de garder une copie des sauvegardes sur une machine physiquement séparée du serveur applicatif. <a href="https://www.truenas.com/" target="_blank" rel="noopener">TrueNAS</a> (Community Edition) est une option gratuite et open source pour ça. Le principe ci-dessous est générique — adaptez les adresses et noms à votre propre réseau.</p>
+
+      <ol class="steps">
+        <li>
+          <h4>Installer TrueNAS sur une machine séparée</h4>
+          <p>Idéalement un second PC ou un petit serveur dédié, distinct de celui qui héberge Espo. Lui attribuer une adresse IP fixe sur le réseau local (par exemple <code>192.168.1.x</code>) pour qu'elle ne change pas.</p>
+        </li>
+        <li>
+          <h4>Créer un pool puis un dataset dédié</h4>
+          <p>Dans l'interface web de TrueNAS, créer un <i>pool</i> à partir du ou des disques réservés aux sauvegardes, puis un <i>dataset</i> à l'intérieur (par exemple <code>backups/assetflow</code>) pour isoler les fichiers de ce projet des autres sauvegardes éventuelles.</p>
+        </li>
+        <li>
+          <h4>Activer un partage réseau sur ce dataset</h4>
+          <p>Activer un partage <b>SMB</b> (compatible Windows) ou <b>NFS</b> (Linux/Mac) sur le dataset, avec des identifiants dédiés à la sauvegarde plutôt que le compte administrateur de TrueNAS.</p>
+        </li>
+        <li>
+          <h4>Monter le partage depuis le serveur applicatif</h4>
+          <p>Sous Windows, mapper le partage comme un lecteur réseau (par exemple <code>Z:</code>) avant de lancer le script de sauvegarde, ou l'ajouter directement dans le chemin de destination du script <code>.bat</code> (<code>\\192.168.1.x\backups\assetflow\</code>).</p>
+        </li>
+        <li>
+          <h4>Adapter le script de sauvegarde</h4>
+          <p>Reprendre le script <code>.bat</code> plus haut et remplacer la ligne <code>robocopy</code> par une copie vers le partage TrueNAS monté, par exemple :</p>
+          <div class="codewrap">
+            <pre class="code" data-copy><span class="c">:: copie vers le partage TrueNAS (adapter le chemin réseau)</span>
+robocopy "%DEST%" "\\192.168.1.x\backups\assetflow\%DATE%" /E</pre>
+            <button class="copybtn">Copier</button>
+          </div>
+        </li>
+      </ol>
+
+      <div class="callout ok"><b>Pourquoi séparer le NAS du serveur applicatif</b> — si le disque du serveur Espo tombe en panne ou si la machine est compromise, la copie sur le NAS reste intacte. C'est aussi l'occasion de tester une <a href="#restore">restauration</a> complète sans toucher à l'environnement de production.</div>
+      <div class="callout"><b>Vérifier après coup</b> — après avoir mis en place la copie automatique, ouvrez régulièrement l'interface TrueNAS pour confirmer que les nouveaux fichiers datés arrivent bien chaque jour, et pas seulement que le script tourne sans erreur.</div>
+    </section>
+
+    <section id="restore">
+      <span class="eyebrow">Sauvegarde</span>
+      <h2>Restaurer une sauvegarde</h2>
+      <ol class="steps">
+        <li><h4>Recréer la base si besoin</h4><p>Créer une base vide, puis importer l'export : <code>mysql -u root assetflowcrm_db &lt; espocrm.sql</code></p></li>
+        <li><h4>Restaurer les fichiers</h4><p>Extraire l'archive dans le dossier du site (<code>htdocs/assetflow</code> ou le volume Docker), en écrasant les fichiers existants.</p></li>
+        <li><h4>Vérifier la configuration</h4><p>Contrôler que <code>data/config.php</code> pointe bien vers la base restaurée (nom, utilisateur, mot de passe).</p></li>
+        <li><h4>Tester la connexion</h4><p>Ouvrir l'application et vérifier qu'un compte de chaque rôle peut se connecter et voir ses données.</p></li>
+      </ol>
+      <div class="callout"><b>Conseil</b> — tester une restauration complète de temps en temps vaut mieux que de découvrir un problème le jour où on en a réellement besoin.</div>
+    </section>
+
+  </main>
+</div>
+
+<footer>ASSETFLOW ERP — DOCUMENTATION DU PROJET</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

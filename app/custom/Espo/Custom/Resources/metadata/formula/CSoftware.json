@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "// Calculate days remaining until license expiry\r\nif (licenseExpiry != null) {\r\n    daysRemaining = datetime\\diff(licenseExpiry, datetime\\now(), 'days');\r\n    \r\n    // Set license status based on days remaining\r\n    if (daysRemaining > 30) {\r\n        licenseStatus = 'Active';\r\n    } else if (daysRemaining >= 0 && daysRemaining <= 30) {\r\n        licenseStatus = 'Expiring Soon';\r\n    } else {\r\n        licenseStatus = 'Expired';\r\n    }\r\n} else {\r\n    daysRemaining = null;\r\n    licenseStatus = 'No Expiry';\r\n}"
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "number",
+        "width": 18
+    },
+    {
+        "name": "status",
+        "width": 19
+    },
+    {
+        "name": "priority",
+        "width": 19
+    },
+    {
+        "name": "teams",
+        "width": 20,
+        "notSortable": true
+    }
+]

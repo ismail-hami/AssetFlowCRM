@@ -1,0 +1,78 @@
+{
+    "fields": {
+        "name": "Utilisateur",
+        "computerName": "Nom de l'ordinateur",
+        "assetType": "Type d'actif",
+        "location": "Emplacement",
+        "condition": "État",
+        "rAM": "RAM",
+        "processor": "Processeur",
+        "operatingSystem": "Système d'exploitation",
+        "processorsName": "Nom du processeur",
+        "graphicsCard": "Carte graphique",
+        "status": "Statut",
+        "systemManufacturer": "Fabricant du système",
+        "domain": "Domaine",
+        "wS": "WS"
+    },
+    "links": [],
+    "labels": {
+        "Create CComputer": "Ajouter",
+        "Overview": "Coordonnées et informations"
+    },
+    "options": {
+        "assetType": {
+            "": "",
+            "LAPTOP": "Portable",
+            "DESKTOP": "Bureau"
+        },
+        "location": {
+            "": "",
+            "5th Floor": "5ème étage",
+            "6th Floor": "6ème étage",
+            "7th Floor": "7ème étage",
+            "Hybrid": "Hybride"
+        },
+        "condition": {
+            "": "",
+            "Exellent": "Excellent",
+            "Good": "Good",
+            "Fair": "Fair",
+            "TO BE REMOVED": "TO BE REMOVED",
+            "Bad": "Bad"
+        },
+        "rAM": {
+            "": "",
+            "4GB": "4GB",
+            "8GB": "8GB",
+            "16GB": "16GB",
+            "32GB": "32GB",
+            "64GB": "64GB",
+            "96GO": "96GO",
+            "128GO": "128GO",
+            "256GO": "256GO"
+        },
+        "processor": {
+            "": "",
+            "intel": "Intel",
+            "AMD": "AMD"
+        },
+        "operatingSystem": {
+            "": "",
+            "Windows 11 Professional Edition": "Windows 11 Édition Professionnelle",
+            "other": "Autre"
+        },
+        "status": {
+            "": "",
+            "IN USE": "EN USAGE",
+            "NOT IN USE": "NON UTILISÉ",
+            "Available": "Disponible"
+        },
+        "domain": {
+            "": "",
+            "HAGS": "HAGS",
+            "PPLT": "PPLT",
+            "local": "local"
+        }
+    }
+}

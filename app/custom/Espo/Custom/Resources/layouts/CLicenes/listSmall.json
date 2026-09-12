@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "dateDeRenouvellement",
+        "width": 20
+    },
+    {
+        "name": "expiryDate",
+        "width": 20
+    },
+    {
+        "name": "daysRemaining",
+        "width": 20
+    },
+    {
+        "name": "status",
+        "width": 20
+    }
+]

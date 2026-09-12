@@ -1,0 +1,77 @@
+{
+    "fields": {
+        "name": "Loanee",
+        "computerName": "Computer name",
+        "assetType": "Asset Type",
+        "location": "Location",
+        "condition": "Condition",
+        "rAM": "RAM",
+        "processor": "Processor",
+        "operatingSystem": "Operating System",
+        "processorsName": "Processors Name",
+        "graphicsCard": "Graphics Card",
+        "status": "Status",
+        "systemManufacturer": "System Manufacturer",
+        "domain": "Domain",
+        "wS": "WS"
+    },
+    "links": [],
+    "labels": {
+        "Create CComputer": "Create Ordinateur"
+    },
+    "options": {
+        "assetType": {
+            "": "",
+            "LAPTOP": "LAPTOP",
+            "DESKTOP": "DESKTOP"
+        },
+        "location": {
+            "": "",
+            "5th Floor": "5th Floor",
+            "6th Floor": "6th Floor",
+            "7th Floor": "7th Floor",
+            "Hybrid": "Hybrid"
+        },
+        "condition": {
+            "": "",
+            "Exellent": "Excellent",
+            "Good": "Good",
+            "Fair": "Fair",
+            "TO BE REMOVED": "TO BE REMOVED",
+            "Bad": "Bad"
+        },
+        "rAM": {
+            "": "",
+            "4GB": "4GB",
+            "8GB": "8GB",
+            "16GB": "16GB",
+            "32GB": "32GB",
+            "64GB": "64GB",
+            "96GO": "96GO",
+            "128GO": "128GO",
+            "256GO": "256GO"
+        },
+        "processor": {
+            "": "",
+            "intel": "intel",
+            "AMD": "AMD"
+        },
+        "operatingSystem": {
+            "": "",
+            "Windows 11 Professional Edition": "Windows 11 Professional Edition",
+            "other": "other"
+        },
+        "status": {
+            "": "",
+            "IN USE": "IN USE",
+            "NOT IN USE": "NOT IN USE",
+            "Available": "Available"
+        },
+        "domain": {
+            "": "",
+            "HAGS": "HAGS",
+            "PPLT": "PPLT",
+            "local": "local"
+        }
+    }
+}

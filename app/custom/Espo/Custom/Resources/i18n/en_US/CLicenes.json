@@ -1,0 +1,33 @@
+{
+    "links": [],
+    "labels": {
+        "Create CLicenes": "Create Licence SW"
+    },
+    "fields": {
+        "expiryDate": "Mtn Expiry Date",
+        "status": "Status",
+        "licenseType": "License Type",
+        "perpetual": "Perpetual",
+        "networkLicense": "Network License",
+        "annualSubscription": "Annual Subscription",
+        "dateDeRenouvellement": "Reactivation Date",
+        "licenseExpires": "License Expires",
+        "daysRemaining": "Days Remaining",
+        "name": "Computer Name",
+        "user": "User"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Expiring Soon": "Expiring Soon",
+            "Expired": "Expired",
+            "NO expiry": "NO expiry"
+        },
+        "licenseType": {
+            "Perpetual": "Perpetual",
+            "Network License": "Network License",
+            "AnnualSubscription": "Annual Subscription",
+            "": ""
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "labels": {
+        "Create CITRequest": "Créer Demande IT"
+    },
+    "fields": {
+        "position": "position",
+        "profuctname": "Profuct name",
+        "managerFullName": "Manager",
+        "name": "Full Name",
+        "statuss": "Status"
+    },
+    "options": {
+        "statuss": {
+            "accepted": "accepted",
+            "pending": "pending",
+            "refused": "refused",
+            "Processing": "Processing"
+        }
+    }
+}

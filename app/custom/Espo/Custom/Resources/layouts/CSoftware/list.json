@@ -1,0 +1,38 @@
+[
+    {
+        "name": "name",
+        "width": 15,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "type",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "quantity",
+        "width": 5,
+        "align": "left"
+    },
+    {
+        "name": "purchasePrice",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "licenseExpiry",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "daysRemaining",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "licenseStatus",
+        "width": 15,
+        "align": "left"
+    }
+]

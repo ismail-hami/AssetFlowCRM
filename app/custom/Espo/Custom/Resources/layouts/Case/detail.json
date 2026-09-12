@@ -1,0 +1,42 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "priority"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "cRequestType"
+                },
+                {
+                    "name": "cProductRequested"
+                }
+            ],
+            [
+                {
+                    "name": "assignedUser"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

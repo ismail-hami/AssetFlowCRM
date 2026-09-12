@@ -1,0 +1,66 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "computerName"
+                }
+            ],
+            [
+                {
+                    "name": "assetType"
+                },
+                {
+                    "name": "location"
+                }
+            ],
+            [
+                {
+                    "name": "condition"
+                },
+                {
+                    "name": "rAM"
+                }
+            ],
+            [
+                {
+                    "name": "processor"
+                },
+                {
+                    "name": "domain"
+                }
+            ],
+            [
+                {
+                    "name": "operatingSystem"
+                },
+                {
+                    "name": "wS"
+                }
+            ],
+            [
+                {
+                    "name": "processorsName"
+                }
+            ],
+            [
+                {
+                    "name": "graphicsCard"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "systemManufacturer"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

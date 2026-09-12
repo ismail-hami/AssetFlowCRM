@@ -1,0 +1,39 @@
+[2026-07-22 10:39:06] WARNING: E_WARNING: rename(data\tmp\tmpBE31.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-07-22 10:39:54] WARNING: E_WARNING: rename(data\tmp\tmp798F.tmp,data/cache/application/metadata.php): Access is denied (code: 5)
+[2026-07-22 10:41:45] ERROR: (409) Field 'fonctionPoste' already exists in 'CHRRequest'. :: POST /Admin/fieldManager/CHRRequest
+[2026-07-22 11:01:35] WARNING: E_WARNING: rename(data\tmp\tmp5342.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2026-07-22 11:01:35] WARNING: E_WARNING: rename(data\tmp\tmp5342.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2026-07-22 11:10:06] ERROR: (0) Wrong variable naming as 'createdAt\'' in {{createdAt\'}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-22 12:41:08] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : p in Entity, line: 2
+[2026-07-22 12:41:08] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 4
+[2026-07-22 12:41:08] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : p in Entity, line: 2
+[2026-07-22 12:41:08] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 4
+[2026-07-22 16:19:28] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:19:28] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:19:28] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:19:28] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:19:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:19:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:19:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:19:43] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:20:21] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:20:21] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:20:21] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:20:21] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:20:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:20:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:20:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:20:40] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:21:11] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:21:11] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:21:11] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:21:11] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:21:36] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:21:36] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:21:36] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:21:36] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:22:07] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:22:07] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:22:07] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-07-22 16:22:07] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-07-22 16:39:19] WARNING: (400) Field validation failure; entityType: CHRRequest, field: subRequestType, type: required. :: POST /CHRRequest

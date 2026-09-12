@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "computerName": "Nom de l'ordinateur",
+        "windowsLicenceKey": "Clé de licence Windows"
+    },
+    "links": [],
+    "labels": {
+        "Create CWindowsKey": "Ajouter",
+        "Overview": "Coordonnées et informations"
+    }
+}

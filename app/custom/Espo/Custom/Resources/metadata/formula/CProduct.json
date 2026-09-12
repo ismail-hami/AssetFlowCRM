@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "if (categoryName == 'Sourie' || categoryName == 'clavier') {\n    type = typeSourie;\n} else if (categoryName == 'Disque dur') {\n    type = string\\concatenate(typeDeDisque, ' ', capacitDeStockage);\n} else if (categoryName == 'RAM') {\n    type = capacit;\n} else if (categoryName == 'Cables') {\n    type = typeDeCble;\n} else if (categoryName == 'Écran') {\n    type = typeCran;\n} else if (categoryName == 'Accessoires') {\n    type = typeDaccessoire;\n} else if (categoryName == 'Switch') {\n    type = \tswt;\n} else if (categoryName == 'Adapter') {\n    type = typeDadaptateur;\n} else {\n    type = null;\n}\n\nif (quantity == 0) {\n    status = 'Not Available';\n} else {\n    status = 'Available';\n}\n"
+}

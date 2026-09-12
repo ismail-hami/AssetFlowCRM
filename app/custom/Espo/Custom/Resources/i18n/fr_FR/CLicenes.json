@@ -1,0 +1,34 @@
+{
+    "links": [],
+    "labels": {
+        "Create CLicenes": "Ajouter",
+        "Overview": "Coordonnées et informations"
+    },
+    "fields": {
+        "expiryDate": "Date d'expiration de maintenance",
+        "status": "Statut",
+        "licenseType": "Type de licence",
+        "perpetual": "Perpétuelle",
+        "networkLicense": "Licence réseau",
+        "annualSubscription": "Abonnement annuel",
+        "dateDeRenouvellement": "Date de réactivation",
+        "licenseExpires": "Licence expire le",
+        "daysRemaining": "Jours restants",
+        "name": "Nom de l'ordinateur",
+        "user": "Utilisateur"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Expiring Soon": "Expire bientôt",
+            "Expired": "Expirée",
+            "NO expiry": "Sans expiration"
+        },
+        "licenseType": {
+            "Perpetual": "Perpétuelle",
+            "Network License": "Licence réseau",
+            "AnnualSubscription": "Abonnement annuel",
+            "": ""
+        }
+    }
+}

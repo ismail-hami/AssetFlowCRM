@@ -1,0 +1,12 @@
+[
+    {
+        "route": "/Software/action/refreshLicenses",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Api\\RefreshLicenses"
+    },
+    {
+        "route": "/CLicenes/action/refreshExpiry",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Api\\RefreshLicenseExpiry"
+    }
+]

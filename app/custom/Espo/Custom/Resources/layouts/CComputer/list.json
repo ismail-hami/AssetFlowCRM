@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "computerName",
+        "width": 16
+    },
+    {
+        "name": "assetType",
+        "width": 16
+    },
+    {
+        "name": "condition",
+        "width": 16
+    },
+    {
+        "name": "status",
+        "width": 16
+    }
+]

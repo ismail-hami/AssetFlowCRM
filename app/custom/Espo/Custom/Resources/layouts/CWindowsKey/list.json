@@ -1,0 +1,12 @@
+[
+    {
+        "name": "computerName",
+        "width": 50,
+        "align": "left"
+    },
+    {
+        "name": "windowsLicenceKey",
+        "width": 50,
+        "align": "left"
+    }
+]

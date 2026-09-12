@@ -1,0 +1,51 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "user"
+                }
+            ],
+            [
+                {
+                    "name": "expiryDate"
+                },
+                {
+                    "name": "dateDeRenouvellement"
+                }
+            ],
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "licenseType"
+                }
+            ],
+            [
+                {
+                    "name": "perpetual"
+                }
+            ],
+            [
+                {
+                    "name": "networkLicense"
+                }
+            ],
+            [
+                {
+                    "name": "annualSubscription"
+                }
+            ],
+            [
+                {
+                    "name": "licenseExpires"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

@@ -1,0 +1,103 @@
+[2026-08-05 09:33:18] WARNING: E_WARNING: rename(data\tmp\tmpE4B4.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2026-08-05 09:33:19] WARNING: E_WARNING: rename(data\tmp\tmpE92A.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2026-08-05 09:33:20] WARNING: E_WARNING: rename(data\tmp\tmpEB44.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-08-05 09:33:21] WARNING: E_WARNING: rename(data\tmp\tmpF13A.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 09:33:23] WARNING: E_WARNING: rename(data\tmp\tmpF866.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 09:33:23] WARNING: E_WARNING: rename(data\tmp\tmpF85E.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 09:33:23] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:23] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:23] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:23] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:23] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:23] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 09:33:24] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 09:33:24] CRITICAL: (0) Bad data stored in file 'data/cache/application/entityAcl.php'. :: GET /Notification/action/notReadCount :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Utils\File\Manager.php(287)
+[2026-08-05 10:10:45] WARNING: E_WARNING: rename(data\tmp\tmp2DB4.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 10:24:23] WARNING: E_WARNING: rename(data\tmp\tmpA9E6.tmp,data/cache/application/objMetadata.php): Access is denied (code: 5)
+[2026-08-05 11:25:01] WARNING: E_WARNING: rename(data\tmp\tmp4D33.tmp,data/cache/application/metadata.php): Access is denied (code: 5)
+[2026-08-05 11:25:02] WARNING: E_WARNING: rename(data\tmp\tmp5224.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2026-08-05 11:25:03] WARNING: E_WARNING: rename(data\tmp\tmp546A.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-08-05 11:25:05] WARNING: E_WARNING: rename(data\tmp\tmp5AC2.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 11:25:07] WARNING: E_WARNING: rename(data\tmp\tmp6225.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 11:25:07] WARNING: E_WARNING: rename(data\tmp\tmp6225.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 11:25:07] WARNING: E_WARNING: rename(data\tmp\tmp6275.tmp,data/config.php): Access is denied (code: 5)
+[2026-08-05 11:25:07] WARNING: E_WARNING: rename(data\tmp\tmp6275.tmp,data/config.php): Access is denied (code: 5)
+[2026-08-05 11:25:07] WARNING: E_WARNING: rename(data\tmp\tmp6225.tmp,data/cache/application/classmapControllers.php): The system cannot find the path specified (code: 3)
+[2026-08-05 11:25:07] WARNING: E_WARNING: rename(data\tmp\tmp6225.tmp,data/cache/application/classmapControllers.php): The system cannot find the path specified (code: 3)
+[2026-08-05 11:29:03] WARNING: E_WARNING: rename(data\tmp\tmpFC13.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2026-08-05 11:36:04] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-05 11:36:04] WARNING: E_WARNING: rename(data\tmp\tmp6BCB.tmp,data/cache/application/objMetadata.php): Access is denied (code: 5)
+[2026-08-05 11:36:06] WARNING: E_WARNING: rename(data\tmp\tmp72D2.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-08-05 11:36:08] WARNING: E_WARNING: rename(data\tmp\tmp79BA.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 11:36:10] WARNING: E_WARNING: rename(data\tmp\tmp81A4.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 11:36:10] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-05 11:36:20] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-05 11:36:20] WARNING: E_WARNING: rename(data\tmp\tmpA97E.tmp,data/cache/application/languages/en_US.php): Access is denied (code: 5)
+[2026-08-05 11:36:20] WARNING: E_WARNING: rename(data\tmp\tmpA97E.tmp,data/cache/application/languages/en_US.php): Access is denied (code: 5)
+[2026-08-05 11:36:21] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-05 11:40:36] WARNING: E_WARNING: rename(data\tmp\tmp9135.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2026-08-05 11:40:36] WARNING: E_WARNING: rename(data\tmp\tmp9135.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2026-08-05 11:46:43] WARNING: E_WARNING: rename(data\tmp\tmp286C.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2026-08-05 11:46:44] WARNING: E_WARNING: rename(data\tmp\tmp2F47.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-08-05 11:46:46] WARNING: E_WARNING: rename(data\tmp\tmp35BE.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 11:46:48] WARNING: E_WARNING: rename(data\tmp\tmp3D59.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 11:46:48] WARNING: E_WARNING: rename(data\tmp\tmp3D17.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 11:46:48] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-05 11:46:48] WARNING: E_WARNING: rename(data\tmp\tmp3F0C.tmp,data/cache/application/autoload.php): Access is denied (code: 5)
+[2026-08-05 11:46:48] WARNING: E_WARNING: rename(data\tmp\tmp3FF8.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2026-08-05 11:46:48] WARNING: E_WARNING: rename(data\tmp\tmp3FF8.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2026-08-05 11:46:49] WARNING: E_WARNING: rename(data\tmp\tmp4052.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 11:46:49] WARNING: E_WARNING: rename(data\tmp\tmp40A9.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 12:40:18] WARNING: E_WARNING: rename(data\tmp\tmp3941.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 12:40:20] WARNING: E_WARNING: rename(data\tmp\tmp4096.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 12:40:20] WARNING: E_WARNING: rename(data\tmp\tmp408F.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:20] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(C:\inetpub\wwwroot\AssetFlowCRM\data\cache\application\entityAcl.php): Failed to open stream: No such file or directory
+[2026-08-05 12:40:21] WARNING: E_WARNING: include(): Failed opening 'data/cache/application/entityAcl.php' for inclusion (include_path='C:\inetpub\wwwroot\AssetFlowCRM')
+[2026-08-05 12:40:28] WARNING: E_WARNING: rename(data\tmp\tmp5F65.tmp,data/cache/application/languages/en_US.php): Access is denied (code: 5)
+[2026-08-05 12:40:28] WARNING: E_WARNING: rename(data\tmp\tmp5F65.tmp,data/cache/application/languages/en_US.php): Access is denied (code: 5)
+[2026-08-05 12:42:20] WARNING: E_WARNING: rename(data\tmp\tmp13E0.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 16:44:48] WARNING: E_WARNING: rename(data\tmp\tmp8D30.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 16:44:48] WARNING: E_WARNING: rename(data\tmp\tmp8D31.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 16:44:48] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-05 16:45:36] WARNING: E_WARNING: rename(data\tmp\tmp47A5.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-05 16:45:38] WARNING: E_WARNING: rename(data\tmp\tmp4F95.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-08-05 16:45:38] WARNING: E_WARNING: rename(data\tmp\tmp4FEA.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2026-08-05 16:45:38] WARNING: E_WARNING: rename(data\tmp\tmp4FEA.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2026-08-05 16:53:58] ERROR: (409) Field 'wS' already exists in 'CComputer'. :: POST /Admin/fieldManager/CComputer
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 2
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 3
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 4
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 5
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 6
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 7
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 2
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 3
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 4
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 5
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 6
+[2026-08-05 17:13:41] WARNING: E_WARNING: Undefined array key 7

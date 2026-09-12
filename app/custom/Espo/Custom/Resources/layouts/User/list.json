@@ -1,0 +1,27 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "userName",
+        "width": 20
+    },
+    {
+        "name": "firstName",
+        "width": 16
+    },
+    {
+        "name": "lastName",
+        "width": 16
+    },
+    {
+        "name": "isActive",
+        "width": 10
+    },
+    {
+        "name": "teams",
+        "width": 16,
+        "notSortable": true
+    }
+]

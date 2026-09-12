@@ -1,0 +1,13 @@
+[2026-08-03 13:26:17] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-03 13:26:17] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-03 13:26:17] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-03 13:26:17] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-03 15:23:57] WARNING: (400) Field validation failure; entityType: CHRRequest, field: reportuneDateUltrieure, type: required. :: POST /CHRRequest
+[2026-08-03 15:24:18] WARNING: (400) Field validation failure; entityType: CHRRequest, field: reportuneDateUltrieure, type: required. :: POST /CHRRequest
+[2026-08-03 15:24:21] WARNING: (400) Field validation failure; entityType: CHRRequest, field: reportuneDateUltrieure, type: required. :: POST /CHRRequest
+[2026-08-03 15:27:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-03 15:27:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-03 15:27:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Tag o:p invalid in Entity, line: 8
+[2026-08-03 15:27:41] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : h2 in Entity, line: 8
+[2026-08-03 16:54:17] WARNING: E_WARNING: rename(data\tmp\tmpA857.tmp,data/cache/application/metadata.php): Access is denied (code: 5)
+[2026-08-03 16:54:17] WARNING: E_WARNING: rename(data\tmp\tmpA857.tmp,data/cache/application/metadata.php): Access is denied (code: 5)

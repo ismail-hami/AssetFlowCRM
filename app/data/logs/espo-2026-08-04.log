@@ -1,0 +1,8 @@
+[2026-08-04 10:22:49] WARNING: (400) Field validation failure; entityType: CWindowsKey, field: name, type: required. :: POST /CWindowsKey
+[2026-08-04 15:41:04] WARNING: E_WARNING: rename(data\tmp\tmp3A45.tmp,data/cache/application/autoload.php): Access is denied (code: 5)
+[2026-08-04 15:52:53] WARNING: E_WARNING: rename(data\tmp\tmpF03.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2026-08-04 16:15:41] WARNING: (400) Field validation failure; entityType: CITRequest, field: position, type: required. :: POST /CITRequest
+[2026-08-04 16:16:53] WARNING: (400) Field validation failure; entityType: CITRequest, field: position, type: required. :: POST /CITRequest
+[2026-08-04 16:19:20] WARNING: (400) Field validation failure; entityType: CITRequest, field: position, type: required. :: POST /CITRequest
+[2026-08-04 16:20:00] WARNING: (400) Field validation failure; entityType: CITRequest, field: managerFullName, type: required. :: POST /CITRequest
+[2026-08-04 16:20:46] WARNING: (400) Field validation failure; entityType: CITRequest, field: valeurDordinateur, type: required. :: POST /CITRequest

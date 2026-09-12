@@ -1,0 +1,26 @@
+{
+    "fields": {
+        "cProductRequested": "ProductRequested",
+        "cRequestType": "RequestType"
+    },
+    "options": {
+        "status": {
+            "New": "New",
+            "Pending": "Pending",
+            "Rejected": "Rejected",
+            "Processing": "Processing"
+        },
+        "cRequestType": {
+            "Salary Advance": "Salary Advance",
+            "Leave Paper": "Leave Paper",
+            "Product Request": "Product Request",
+            "Other": "Other"
+        }
+    },
+    "links": {
+        "cProductRequested": "ProductRequested"
+    },
+    "labels": {
+        "Create Case": "Create Requests"
+    }
+}

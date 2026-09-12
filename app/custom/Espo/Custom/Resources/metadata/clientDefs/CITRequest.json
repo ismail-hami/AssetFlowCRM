@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": "#5fa6ff",
+    "iconClass": "fas fa-computer-mouse"
+}

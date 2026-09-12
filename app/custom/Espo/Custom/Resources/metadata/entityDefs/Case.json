@@ -1,0 +1,61 @@
+{
+    "fields": {
+        "cProductRequested": {
+            "type": "link"
+        },
+        "status": {
+            "options": [
+                "New",
+                "Pending",
+                "Rejected",
+                "Processing"
+            ],
+            "style": {
+                "New": null,
+                "Pending": "primary",
+                "Rejected": "danger",
+                "Processing": "warning"
+            }
+        },
+        "cRequestType": {
+            "type": "enum",
+            "required": true,
+            "options": [
+                "Salary Advance",
+                "Leave Paper",
+                "Product Request",
+                "Other"
+            ],
+            "style": {
+                "Salary Advance": null,
+                "Leave Paper": null,
+                "Product Request": null,
+                "Other": null
+            },
+            "default": "Product Request",
+            "maxLength": 100,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "cProductRequested": {
+            "type": "belongsTo",
+            "foreign": "cases",
+            "entity": "CProduct",
+            "audited": false,
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "number",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "number",
+            "description"
+        ],
+        "fullTextSearch": true,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": true
+}

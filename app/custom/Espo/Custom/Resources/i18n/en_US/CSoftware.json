@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "type": "Type",
+        "lastOrderDate": "Last Order Date",
+        "vendor": "Vendor",
+        "department": "Department",
+        "purchasePrice": "Purchase Price (MAD)",
+        "purchasePriceCurrency": "Purchase Price (MAD) (Currency)",
+        "purchasePriceConverted": "Purchase Price (MAD) (Converted)",
+        "quantity": "Quantity",
+        "totalValue": "Total Value",
+        "totalValueCurrency": "Total Value (Currency)",
+        "totalValueConverted": "Total Value (Converted)",
+        "licenseExpiry": "License Expiry",
+        "serialNumber": "Serial Number",
+        "licenseQuantity": "License Quantity",
+        "quantityUsed": "Quantity Used",
+        "quantityRemaining": "Quantity Remaining",
+        "daysRemaining": "Days Remaining",
+        "licenseStatus": "License Status"
+    },
+    "links": [],
+    "labels": {
+        "Create CSoftware": "Create Logiciel"
+    },
+    "options": {
+        "vendor": {
+            "ROBOBAT": "ROBOBAT",
+            "FREE": "FREE",
+            "PP": "PP",
+            "HAGS": "HAGS"
+        },
+        "licenseStatus": {
+            "Active": "Active",
+            "Expiring Soon": "Expiring Soon",
+            "Expired": "Expired",
+            "No Expiry": "No Expiry"
+        }
+    }
+}

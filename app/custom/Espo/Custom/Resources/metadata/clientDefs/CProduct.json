@@ -1,0 +1,19 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "color": null,
+    "iconClass": "fas fa-box-open",
+    "kanbanViewMode": false,
+    "relationshipPanels": {
+        "cases": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        },
+        "category": {
+            "layout": null,
+            "selectPrimaryFilterName": null
+        }
+    }
+}

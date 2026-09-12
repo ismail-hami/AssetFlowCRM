@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "cProductRequested": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "cRequestType",
+                        "value": "Product Request"
+                    }
+                ]
+            }
+        }
+    }
+}

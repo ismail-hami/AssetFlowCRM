@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Installation — AssetFlow ERP</title>
+<meta name="description" content="Comment installer AssetFlow ERP en local : prérequis, installation d'EspoCRM, chargement des personnalisations, hébergement XAMPP ou Docker.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="installation">
+
+<div id="progress"></div>
+<div class="bg-grid"></div>
+<div class="glow"></div>
+
+<div class="topbar">
+  <a class="brand" href="index.html">Asset<span>Flow</span> ERP<small>documentation du projet</small></a>
+  <button id="navtoggle" aria-label="Ouvrir le menu">Menu</button>
+  <nav class="pagenav">
+    <a href="index.html" data-page="index">Accueil</a>
+    <a href="installation.html" data-page="installation">Installation</a>
+    <a href="usage.html" data-page="usage">Utilisation</a>
+    <a href="backup.html" data-page="backup">Sauvegarde</a>
+    <a class="gh" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</div>
+
+<div class="layout">
+  <nav class="side" id="sidenav">
+    <div class="grp">
+      <div class="grp-title">DÉMARRER</div>
+      <a href="#prerequis">Prérequis</a>
+    </div>
+    <div class="grp">
+      <div class="grp-title">INSTALLATION</div>
+      <a href="#install-espo">1. Installer Espo</a>
+      <a href="#install-custom">2. Charger AssetFlow</a>
+      <a href="#notification-rh">3. Notification RH (webhook)</a>
+    </div>
+    <div class="grp">
+      <div class="grp-title">HÉBERGEMENT LOCAL</div>
+      <a href="#hebergement">XAMPP ou Docker</a>
+    </div>
+    <div class="grp">
+      <div class="grp-title">ALLER PLUS LOIN</div>
+      <a href="#expose">Accès depuis internet (optionnel)</a>
+      <a href="#depannage">Dépannage</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="prerequis">
+      <span class="eyebrow">Avant de commencer</span>
+      <h1>Installer AssetFlow ERP en <span>local</span></h1>
+      <p class="lead">Deux façons d'obtenir un environnement local qui convient : un pack tout-en-un (XAMPP) ou des conteneurs (Docker). Dans les deux cas, voici ce qui tourne derrière l'application.</p>
+      <table>
+        <thead><tr><th>Composant</th><th>Version conseillée</th><th>Rôle</th></tr></thead>
+        <tbody>
+          <tr><td>Serveur web</td><td><code>Apache</code></td><td>Sert l'application aux navigateurs</td></tr>
+          <tr><td>PHP</td><td><code>8.2.x</code></td><td>Exécute le code d'Espo</td></tr>
+          <tr><td>Base de données</td><td><code>MariaDB / MySQL</code></td><td>Stocke toutes les données</td></tr>
+          <tr><td>Espo</td><td><code>9.2.0</code></td><td>Socle applicatif (rôles, équipes, PDF, notifications natives)</td></tr>
+        </tbody>
+      </table>
+      <div class="callout ok"><b>À savoir</b> — AssetFlow n'est pas un logiciel séparé : c'est Espo 9.2.0, avec des entités, des formules et des modèles PDF ajoutés par-dessus. L'installer, c'est installer Espo puis charger les fichiers de personnalisation présents dans ce dépôt.</div>
+    </section>
+
+    <section id="install-espo">
+      <span class="eyebrow">Installation — étape 1</span>
+      <h2>Installer Espo</h2>
+      <ol class="steps">
+        <li>
+          <h4>Télécharger l'archive</h4>
+          <p>Récupérer Espo 9.2.0 depuis <a href="https://www.espocrm.com/download/" target="_blank" rel="noopener">espocrm.com</a>, ou utiliser directement l'image Docker officielle (voir la section Hébergement).</p>
+        </li>
+        <li>
+          <h4>Créer la base de données</h4>
+          <p>Créer une base et un utilisateur dédiés :</p>
+          <div class="codewrap">
+            <pre class="code" data-copy><span class="c">-- dans phpMyAdmin ou le client MariaDB</span>
+CREATE DATABASE assetflowcrm_db CHARACTER SET utf8mb4;
+CREATE USER <span class="k">'assetflow'</span>@<span class="k">'localhost'</span> IDENTIFIED BY <span class="k">'changeme'</span>;
+GRANT ALL PRIVILEGES ON assetflowcrm_db.* TO <span class="k">'assetflow'</span>@<span class="k">'localhost'</span>;
+FLUSH PRIVILEGES;</pre>
+            <button class="copybtn">Copier</button>
+          </div>
+          <p style="margin-top:8px; font-size:0.85rem;">Remplacez <code>changeme</code> par un mot de passe de votre choix.</p>
+          <div class="callout"><b>Important</b> — une fois l'installation terminée, Espo enregistre ces identifiants dans
+            <code>data/config-internal.php</code> (chemin type : <code>C:\xampp\htdocs\AssetFlowCRM\data\config-internal.php</code>
+            sous Windows). Si vous changez le nom de la base, l'utilisateur ou le mot de passe <i>après</i> l'installation,
+            pensez à mettre à jour ce fichier en conséquence — sinon l'application ne pourra plus se connecter à la base
+            et affichera une erreur de connexion au démarrage.</div>
+        </li>
+        <li>
+          <h4>Donner les droits d'écriture</h4>
+          <p>Le serveur web doit pouvoir écrire dans <code>data/</code>, <code>custom/</code>, <code>client/custom/</code> et <code>log/</code> — sinon l'assistant d'installation bloque à l'étape des permissions.</p>
+        </li>
+        <li>
+          <h4>Lancer l'assistant web</h4>
+          <p>Ouvrir l'adresse du site dans un navigateur. L'assistant vérifie les prérequis, demande la connexion à la base, puis crée le compte administrateur.</p>
+        </li>
+        <li>
+          <h4>Régler la langue et le thème</h4>
+          <p>Dans <code>Administration → Paramètres du système</code>, passer la langue en français et installer l'extension <b>Modern Theme</b> si vous le souhaitez.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="install-custom">
+      <span class="eyebrow">Installation — étape 2</span>
+      <h2>Charger les personnalisations AssetFlow</h2>
+      <p class="lead">Une fois Espo installé nu, il faut y ajouter les entités et automatisations propres au projet. Ces fichiers se trouvent dans ce dépôt (dossier <code>custom/</code>) et ne contiennent aucune donnée — seulement la structure de l'application.</p>
+      <ol class="steps">
+        <li>
+          <h4>Copier les métadonnées personnalisées</h4>
+          <p>Placer les définitions d'entités (<code>CProduct</code>, <code>CSoftware</code>, <code>CITRequest</code>, <code>CHRRequest</code>, <code>Computer</code>, <code>MiseADisposition</code>) dans <code>custom/Espo/Custom/Resources/metadata</code> de votre installation Espo, puis vider le cache depuis <code>Administration → Effacer le cache</code>.</p>
+        </li>
+        <li>
+          <h4>Importer les rôles, équipes et layouts</h4>
+          <p>Recréer les rôles <code>EMPLOYEE</code>, <code>IT Manager</code>, <code>HR Manager</code> avec leurs permissions, et les équipes <code>IT Team</code> / <code>HR Team</code> (voir la page <a href="usage.html#roles">Utilisation</a> pour le détail de chaque rôle).</p>
+        </li>
+        <li>
+          <h4>Ajouter les formules et l'API PHP</h4>
+          <p>Coller les formules de calcul (jours de congé, statut de licence) sur les entités concernées, et déposer le contrôleur personnalisé de rafraîchissement des licences.</p>
+        </li>
+        <li>
+          <h4>Importer les modèles PDF</h4>
+          <p>Créer les modèles dans <code>Administration → Modèles PDF</code> pour chaque type de document (demande d'équipement, attestations RH, congés, mise à disposition...).</p>
+        </li>
+        <li>
+          <h4>(Optionnel) Brancher le service de notification RH</h4>
+          <p>Déployer le petit service Django séparément, configurer un webhook sortant sur <code>CHRRequest</code> (événement <code>afterCreate</code>), et renseigner vos propres identifiants SMTP côté Django. Le détail complet est expliqué juste en dessous.</p>
+        </li>
+      </ol>
+      <div class="callout"><b>Sans ce service Django</b> — l'application fonctionne normalement, seule la notification automatique par courriel à l'équipe RH ne partira pas.</div>
+    </section>
+
+    <section id="notification-rh">
+      <span class="eyebrow">Installation — étape 3 (optionnelle)</span>
+      <h2>Comment fonctionne la notification RH</h2>
+      <p class="lead">Quand un employé crée une demande RH, l'équipe RH reçoit automatiquement un courriel récapitulatif avec un lien direct vers le ticket. Quatre maillons interviennent, dans cet ordre :</p>
+
+      <ol class="steps">
+        <li>
+          <h4>Espo déclenche un webhook sortant</h4>
+          <p>Dès qu'un enregistrement <code>CHRRequest</code> est créé (événement <code>afterCreate</code>), Espo envoie une requête <code>POST</code> contenant les données du ticket au format JSON vers une URL que vous configurez dans <code>Administration → Webhooks</code>.</p>
+        </li>
+        <li>
+          <h4>Un service Django reçoit la requête</h4>
+          <p>Le point d'entrée <code>/espocrm-webhook/</code> (fonction <code>espocrm_webhook</code> dans <code>webhooks/views.py</code>) parse le JSON et vérifie d'abord que la connexion SMTP fonctionne avant d'aller plus loin.</p>
+        </li>
+        <li>
+          <h4>Django construit le courriel HTML</h4>
+          <p>La fonction <code>build_email_html()</code> extrait le nom de l'employé, le département, le type de demande et l'identifiant du ticket, puis les insère dans un gabarit HTML avec un lien de retour vers la fiche dans Espo.</p>
+        </li>
+        <li>
+          <h4>L'envoi part par Gmail (SMTP)</h4>
+          <p><code>send_mail()</code> authentifie la connexion avec un compte Gmail et un <b>mot de passe d'application</b>, puis livre le courriel à la boîte de réception RH. C'est cette étape qui a besoin de vos propres identifiants.</p>
+        </li>
+      </ol>
+
+      <h3>Où changer l'adresse Gmail et le mot de passe</h3>
+      <p>Tout se passe dans un seul fichier : <code>espocrm_webhook/espocrm_webhook/settings.py</code>. Repérez le bloc de configuration email en bas du fichier et remplacez les deux valeurs marquées ci-dessous :</p>
+      <div class="codewrap">
+        <pre class="code" data-copy><span class="c"># espocrm_webhook/espocrm_webhook/settings.py</span>
+EMAIL_BACKEND = <span class="k">'django.core.mail.backends.smtp.EmailBackend'</span>
+EMAIL_HOST = <span class="k">'smtp.gmail.com'</span>
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+<span class="c">#  ↓↓↓ à remplacer par votre propre adresse Gmail</span>
+EMAIL_HOST_USER = <span class="k">'votre-adresse@gmail.com'</span>
+
+<span class="c">#  ↓↓↓ à remplacer par un mot de passe d'application (16 caractères), PAS votre mot de passe Gmail</span>
+EMAIL_HOST_PASSWORD = <span class="k">'xxxx xxxx xxxx xxxx'</span>
+
+DEFAULT_FROM_EMAIL = <span class="k">'votre-adresse@gmail.com'</span></pre>
+        <button class="copybtn">Copier</button>
+      </div>
+
+      <h3>Générer le mot de passe d'application Gmail</h3>
+      <ol class="steps">
+        <li><h4>Activer la validation en deux étapes</h4><p>Sur le compte Gmail qui enverra les courriels : <code>myaccount.google.com → Sécurité → Validation en deux étapes</code>. Un mot de passe d'application ne peut pas être généré sans ça.</p></li>
+        <li><h4>Créer le mot de passe d'application</h4><p>Toujours dans <code>Sécurité</code>, chercher <b>Mots de passe des applications</b>, choisir un nom (par exemple « AssetFlow webhook ») et générer. Google affiche une chaîne de 16 caractères une seule fois.</p></li>
+        <li><h4>Coller cette chaîne dans <code>EMAIL_HOST_PASSWORD</code></h4><p>Copier-coller telle quelle, espaces compris ou non — les deux formats fonctionnent avec Django. Ce n'est jamais le mot de passe habituel du compte Gmail.</p></li>
+      </ol>
+
+      <h3>L'adresse est aussi codée en dur dans views.py</h3>
+      <p>Changer <code>settings.py</code> ne suffit pas : l'adresse de la boîte RH est répétée telle quelle dans <code>webhooks/views.py</code>, à la fonction <code>espocrm_webhook</code>, dans l'appel <code>send_mail()</code> — une fois comme expéditeur, une fois comme destinataire.</p>
+      <div class="codewrap">
+        <pre class="code" data-copy><span class="c"># webhooks/views.py — dans espocrm_webhook()</span>
+send_mail(
+    sujet,
+    '',
+    <span class="k">'votre-adresse@gmail.com'</span>,      <span class="c">&lt;-- expéditeur, à remplacer</span>
+    [<span class="k">'votre-adresse@gmail.com'</span>],    <span class="c">&lt;-- destinataire(s), à remplacer</span>
+    fail_silently=False,
+    html_message=message,
+)</pre>
+        <button class="copybtn">Copier</button>
+      </div>
+      <p>Le plus sûr est de ne pas répéter l'adresse une troisième fois ici : réutilisez la valeur déjà définie dans <code>settings.py</code> plutôt que de la retaper.</p>
+      <div class="codewrap">
+        <pre class="code" data-copy><span class="c"># en haut de webhooks/views.py</span>
+from django.conf import settings
+
+<span class="c">/* ... puis dans send_mail() ... */</span>
+send_mail(
+    sujet,
+    '',
+    settings.DEFAULT_FROM_EMAIL,
+    [settings.EMAIL_HOST_USER],   <span class="c">&lt;-- ou une liste de destinataires dédiée</span>
+    fail_silently=False,
+    html_message=message,
+)</pre>
+        <button class="copybtn">Copier</button>
+      </div>
+      <p>La même adresse réapparaît aussi dans <code>build_email_html()</code> (variables <code>ticket_link</code> et <code>site_link</code>), mais là il s'agit du nom d'hôte de votre serveur AssetFlow, pas de Gmail — à adapter séparément avec votre propre domaine ou IP si vous reprenez ce code.</p>
+
+      <div class="callout ok"><b>Adresse dédiée recommandée</b> — créez un compte Gmail spécifique à cette intégration (par ex. une boîte partagée RH) plutôt que d'utiliser un compte personnel : plus facile à révoquer, à faire tourner, et à partager avec un successeur.</div>
+      <div class="callout"><b>Ne jamais committer ces valeurs</b> — <code>EMAIL_HOST_USER</code> et <code>EMAIL_HOST_PASSWORD</code> ne doivent pas rester en clair dans <code>settings.py</code> si ce fichier part sur un dépôt Git, même privé. Chargez-les plutôt depuis une variable d'environnement, par exemple <code>EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')</code>, et gardez le fichier <code>.env</code> correspondant hors du dépôt (<code>.gitignore</code>). Si un mot de passe d'application a déjà été exposé (poussé sur GitHub, partagé dans un fichier, etc.), révoquez-le immédiatement dans les paramètres Gmail et générez-en un nouveau — le remplacer dans le code ne suffit pas, l'ancien reste valide tant qu'il n'est pas révoqué côté Google.</div>
+    </section>
+
+    <section id="hebergement">
+      <span class="eyebrow">Hébergement</span>
+      <h2>Le faire tourner en local</h2>
+      <p class="lead">Pas besoin de serveur distant pour l'utiliser ou le démontrer : XAMPP suffit pour aller vite, Docker donne un environnement propre et jetable.</p>
+
+      <div class="tabs" role="tablist">
+        <button class="tabbtn active" data-tab="xampp">🗔 XAMPP</button>
+        <button class="tabbtn" data-tab="docker">🐳 Docker</button>
+      </div>
+
+      <div class="tabpanel active" id="tab-xampp">
+        <ol class="steps">
+          <li><h4>Installer XAMPP</h4><p>Télécharger XAMPP (Apache + PHP + MariaDB + phpMyAdmin) depuis <a href="https://www.apachefriends.org/" target="_blank" rel="noopener">apachefriends.org</a> et l'installer.</p></li>
+          <li><h4>Démarrer Apache et MySQL</h4><p>Ouvrir le panneau de contrôle XAMPP et démarrer les modules <code>Apache</code> et <code>MySQL</code>.</p></li>
+          <li><h4>Créer la base via phpMyAdmin</h4><p>Ouvrir <code>http://localhost/phpmyadmin</code>, créer une base <code>assetflowcrm_db</code> (utf8mb4). Par défaut, l'utilisateur <code>root</code> n'a pas de mot de passe.</p></li>
+          <li><h4>Déposer Espo dans htdocs</h4><p>Extraire l'archive Espo dans <code>C:\xampp\htdocs\assetflow</code> (Windows) ou <code>/Applications/XAMPP/htdocs/assetflow</code> (Mac), puis copier les fichiers de ce dépôt par-dessus.</p></li>
+          <li><h4>Lancer l'installation</h4><p>Ouvrir <code>http://localhost/assetflow</code> et suivre l'assistant : hôte <code>localhost</code>, base <code>assetflowcrm_db</code>, utilisateur <code>root</code>, mot de passe vide (ou celui que vous avez défini).</p></li>
+        </ol>
+      </div>
+
+      <div class="tabpanel" id="tab-docker">
+        <p>L'image officielle EspoCRM contient déjà PHP, Apache et l'application. Il ne manque qu'une base MariaDB à côté.</p>
+        <div class="codewrap">
+          <pre class="code" data-copy><span class="c"># docker-compose.yml</span>
+services:
+  espocrm-db:
+    image: mariadb:latest
+    container_name: espocrm-db
+    environment:
+      MARIADB_ROOT_PASSWORD: changeme
+      MARIADB_DATABASE: espocrm
+      MARIADB_USER: espocrm
+      MARIADB_PASSWORD: changeme
+    volumes:
+      - espocrm-db:/var/lib/mysql
+    restart: always
+
+  espocrm:
+    image: espocrm/espocrm
+    container_name: espocrm
+    environment:
+      ESPOCRM_DATABASE_PLATFORM: Mysql
+      ESPOCRM_DATABASE_HOST: espocrm-db
+      ESPOCRM_DATABASE_USER: espocrm
+      ESPOCRM_DATABASE_PASSWORD: changeme
+      ESPOCRM_ADMIN_USERNAME: admin
+      ESPOCRM_ADMIN_PASSWORD: changeme
+      ESPOCRM_SITE_URL: <span class="k">"http://localhost:8080"</span>
+    volumes:
+      - espocrm:/var/www/html
+    restart: always
+    depends_on:
+      - espocrm-db
+    ports:
+      - <span class="k">8080</span>:80
+
+volumes:
+  espocrm-db:
+  espocrm:</pre>
+          <button class="copybtn">Copier</button>
+        </div>
+        <div class="codewrap" style="margin-top:16px;">
+          <pre class="code" data-copy>docker compose up -d</pre>
+          <button class="copybtn">Copier</button>
+        </div>
+        <p style="margin-top:14px; font-size:0.9rem; color:var(--muted);">Une fois les conteneurs démarrés, ouvrir <code>http://localhost:8080</code>, puis copier les fichiers de personnalisation de ce dépôt dans le volume <code>espocrm</code> — le compte admin est créé automatiquement avec les identifiants indiqués ci-dessus (à changer avant tout usage réel).</p>
+      </div>
+
+      <div class="callout ok"><b>Après l'installation</b> — dans les deux cas, il reste à charger les personnalisations AssetFlow (étape précédente) : entités, formules, rôles et modèles PDF ne viennent pas avec Espo de base.</div>
+    </section>
+
+    <section id="expose">
+      <span class="eyebrow">Aller plus loin — optionnel</span>
+      <h2>Rendre l'application accessible depuis internet</h2>
+      <p class="lead">Par défaut, l'application n'est accessible que depuis votre propre réseau local. C'est suffisant pour tester ou faire une démo. Si vous voulez y accéder depuis l'extérieur (par exemple pour la montrer à distance), voici le principe général — à adapter avec vos propres valeurs, aucune ici n'est réelle.</p>
+
+      <h3>1. Le problème de l'adresse IP qui change</h3>
+      <p>La plupart des connexions internet grand public ont une adresse IP publique <b>dynamique</b> : elle peut changer après un redémarrage du routeur. Un <b>DNS dynamique (DDNS)</b> résout ce problème en associant un nom fixe (par exemple <code>monprojet.exemple-ddns.net</code>) à votre adresse IP actuelle, mise à jour automatiquement. Des services comme <a href="https://www.noip.com/" target="_blank" rel="noopener">No-IP</a>, <a href="https://www.duckdns.org/" target="_blank" rel="noopener">DuckDNS</a> ou <a href="https://www.dynu.com/" target="_blank" rel="noopener">Dynu</a> proposent cela gratuitement.</p>
+
+      <h3>2. La redirection de port sur le routeur</h3>
+      <p>Le DDNS fait pointer un nom vers votre routeur, mais ne donne pas accès à l'application elle-même. Il faut en plus configurer une <b>redirection de port</b> (souvent appelée <i>port forwarding</i>) dans l'interface d'administration du routeur, pour transmettre les connexions reçues vers la machine qui héberge Espo :</p>
+      <table>
+        <thead><tr><th>Paramètre</th><th>Exemple (à remplacer)</th></tr></thead>
+        <tbody>
+          <tr><td>Port externe</td><td><code>8080</code></td></tr>
+          <tr><td>Adresse IP locale du serveur</td><td><code>192.168.1.50</code></td></tr>
+          <tr><td>Port interne (celui d'Espo)</td><td><code>80</code></td></tr>
+          <tr><td>Protocole</td><td><code>TCP</code></td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:0.88rem; color:var(--muted); margin-top:10px;">Ces valeurs sont propres à chaque installation (votre box/routeur, votre réseau local). L'interface exacte varie selon le fabricant du routeur.</p>
+
+      <h3>3. Sécuriser l'accès distant</h3>
+      <ul class="checklist">
+        <li>Mettre HTTPS en place (certificat via un reverse proxy comme Nginx/Caddy, ou Let's Encrypt) plutôt que du HTTP en clair</li>
+        <li>Changer tous les mots de passe par défaut avant toute exposition publique</li>
+        <li>Limiter les tentatives de connexion et surveiller les journaux d'accès</li>
+        <li>Envisager un VPN plutôt qu'une exposition directe si l'accès distant n'est pas permanent</li>
+      </ul>
+      <div class="callout"><b>Recommandation</b> — pour découvrir ou faire évoluer le projet, l'accès local (XAMPP ou Docker) suffit largement. L'exposition publique n'est utile que si vous devez réellement y accéder depuis l'extérieur, et mérite d'être bien sécurisée avant.</div>
+    </section>
+
+    <section id="depannage">
+      <span class="eyebrow">Dépannage</span>
+      <h2>Problèmes fréquents</h2>
+      <table>
+        <thead><tr><th>Symptôme</th><th>Piste</th></tr></thead>
+        <tbody>
+          <tr><td>L'assistant d'installation bloque sur les permissions</td><td>Vérifier les droits d'écriture sur <code>data/</code>, <code>custom/</code>, <code>client/custom/</code> et <code>log/</code></td></tr>
+          <tr><td>Écran blanc après installation</td><td>Vérifier la version de PHP (8.2 recommandée) et les extensions requises par Espo</td></tr>
+          <tr><td>Les entités personnalisées n'apparaissent pas</td><td>Vider le cache depuis <code>Administration → Effacer le cache</code> après avoir copié les fichiers <code>custom/</code></td></tr>
+          <tr><td>Le bouton de rafraîchissement des licences ne fait rien</td><td>Vérifier que le contrôleur PHP personnalisé est bien déposé et que le cache client (navigateur) est vidé</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+</div>
+
+<footer>ASSETFLOW ERP — DOCUMENTATION DU PROJET</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

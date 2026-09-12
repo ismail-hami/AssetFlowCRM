@@ -1,0 +1,23 @@
+[
+    {
+        "name": "name",
+        "width": 25,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "requestType",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "subRequestType",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 25,
+        "align": "left"
+    }
+]

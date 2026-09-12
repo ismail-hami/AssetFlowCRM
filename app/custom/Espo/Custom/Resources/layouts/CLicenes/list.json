@@ -1,0 +1,33 @@
+[
+    {
+        "name": "name",
+        "width": 16
+    },
+    {
+        "name": "licenseType",
+        "width": 16
+    },
+    {
+        "name": "licenseExpires",
+        "width": 16
+    },
+    {
+        "name": "expiryDate",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "dateDeRenouvellement",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "daysRemaining",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 16
+    }
+]

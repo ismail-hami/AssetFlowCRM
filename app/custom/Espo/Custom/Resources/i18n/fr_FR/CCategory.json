@@ -1,0 +1,12 @@
+{
+    "fields": {
+        "products": "Produits"
+    },
+    "links": {
+        "products": "Produits"
+    },
+    "labels": {
+        "Create CCategory": "Ajouter",
+        "Overview": "Coordonnées et informations"
+    }
+}

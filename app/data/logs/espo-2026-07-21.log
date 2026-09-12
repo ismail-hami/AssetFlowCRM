@@ -1,0 +1,386 @@
+[2026-07-21 10:44:30] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:45:58] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:46:09] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:49:47] CRITICAL: (HY000) SQLSTATE[HY000]: General error: 2006 MySQL server has gone away :: GET /Notification/action/notReadCount :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\ORM\Executor\DefaultSqlExecutor.php(77)
+[2026-07-21 10:49:52] CRITICAL: (2002) SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it :: GET /PopupNotification/action/grouped :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2026-07-21 10:49:54] CRITICAL: (2002) SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it :: GET /Settings :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2026-07-21 10:49:57] CRITICAL: (2002) SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it :: GET /Notification/action/notReadCount :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2026-07-21 10:50:24] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:50:31] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:53:31] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:53:51] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:59:03] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:59:15] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 10:59:24] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 11:00:06] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 11:08:24] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 11:15:44] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 11:16:09] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 11:40:33] WARNING: E_WARNING: rename(data\tmp\tmpA06D.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 1
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 3
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 26
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 85
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 85
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 85
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 1
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 2
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 3
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 26
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 75
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 80
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 85
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 85
+[2026-07-21 12:10:14] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 85
+[2026-07-21 12:10:14] ERROR: (0) Can not find custom helper function defination eq() ! Can not find custom helper function defination eq() ! Can not find custom helper function defination eq() ! Can not find custom helper function defination eq() ! Can not find custom helper function defination eq() ! :: POST /Pdf/action/massPrint :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:02] ERROR: Slim Application Error Type: TypeError Code: 0 Message: substr(): Argument #1 ($string) must be of type string, array given File: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Expression.php Line: 106 Trace: #0 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Expression.php(106): substr(Array, 0, 1) #1 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(139): LightnCandy\Expression::analyze(Array, Array) #2 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(244): LightnCandy\Validator::pushStack(Array, '#', Array) #3 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(644): LightnCandy\Validator::operator('#', Array, Array) #4 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(52): LightnCandy\Validator::token(Array, Array) #5 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Compiler.php(40): LightnCandy\Validator::verify(Array, '</span>\n    </d...') #6 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(46): LightnCandy\Compiler::compileTemplate(Array, '\n\n\n    \n\n\n\n    ...') #7 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Htmlizer\Htmlizer.php(113): LightnCandy\LightnCandy::compile('\n\n\n    \n\n\n\n    ...', Array) #8 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Htmlizer\TemplateRenderer.php(144): Espo\Core\Htmlizer\Htmlizer->render(Object(Espo\Core\Templates\Entities\Base), '\n\n\n    \n\n\n\n    ...', NULL, Array, false, true) #9 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Htmlizer\TemplateRenderer.php(139): Espo\Core\Htmlizer\TemplateRenderer->renderTemplateInternal('\n\n\n    \n\n\n\n    ...', Object(Espo\Core\Htmlizer\Htmlizer)) #10 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Dompdf\HtmlComposer.php(172): Espo\Core\Htmlizer\TemplateRenderer->renderTemplate('\n\n\n    \n\n\n\n    ...') #11 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Dompdf\EntityPrinter.php(58): Espo\Tools\Pdf\Dompdf\HtmlComposer->composeMain(Object(Espo\Tools\Pdf\TemplateWrapper), Object(Espo\Core\Templates\Entities\Base), Object(Espo\Tools\Pdf\Params), Object(Espo\Tools\Pdf\Data)) #12 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\PrinterController.php(82): Espo\Tools\Pdf\Dompdf\EntityPrinter->print(Object(Espo\Tools\Pdf\TemplateWrapper), Object(Espo\Core\Templates\Entities\Base), Object(Espo\Tools\Pdf\Params), Object(Espo\Tools\Pdf\Data)) #13 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\MassService.php(165): Espo\Tools\Pdf\PrinterController->printCollection(Object(Espo\ORM\EntityCollection), Object(Espo\Tools\Pdf\Params), Object(Espo\Tools\Pdf\IdDataMap)) #14 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Controllers\Pdf.php(86): Espo\Tools\Pdf\MassService->generate('CHRRequest', Array, '6a5f62409953938...') #15 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\ControllerActionProcessor.php(87): Espo\Controllers\Pdf->postActionMassPrint(Object(Espo\Core\Api\RequestWrapper), Object(Espo\Core\Api\ResponseWrapper)) #16 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\ControllerActionHandler.php(65): Espo\Core\Api\ControllerActionProcessor->process('Pdf', 'massPrint', Object(Espo\Core\Api\RequestWrapper), Object(Espo\Core\Api\ResponseWrapper)) #17 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Espo\Core\Api\ControllerActionHandler->handle(Object(Slim\Psr7\Request)) #18 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(221): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #19 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(148): Espo\Core\Api\RouteProcessor->processControllerAction(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Espo\Core\Api\ResponseWrapper)) #20 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(126): Espo\Core\Api\RouteProcessor->processAfterAuth(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Espo\Core\Api\ResponseWrapper)) #21 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(78): Espo\Core\Api\RouteProcessor->processInternal(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Espo\Core\Api\RequestWrapper), Object(Espo\Core\Api\ResponseWrapper)) #22 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\Starter.php(126): Espo\Core\Api\RouteProcessor->process(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Slim\Psr7\Response)) #23 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php(38): Espo\Core\Api\Starter->Espo\Core\Api\{closure}(Object(Slim\Psr7\Request), Object(Slim\Psr7\Response), Array) #24 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Routing\Route.php(363): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Psr7\Request), Object(Slim\Psr7\Response), Array) #25 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Slim\Routing\Route->handle(Object(Slim\Psr7\Request)) #26 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #27 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Routing\Route.php(321): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #28 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Routing\RouteRunner.php(74): Slim\Routing\Route->run(Object(Slim\Psr7\Request)) #29 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php(45): Slim\Routing\RouteRunner->handle(Object(Slim\Psr7\Request)) #30 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(129): Slim\Middleware\RoutingMiddleware->process(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner)) #31 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php(77): Psr\Http\Server\RequestHandlerInterface@anonymous->handle(Object(Slim\Psr7\Request)) #32 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(129): Slim\Middleware\ErrorMiddleware->process(Object(Slim\Psr7\Request), Object(Psr\Http\Server\RequestHandlerInterface@anonymous)) #33 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Psr\Http\Server\RequestHandlerInterface@anonymous->handle(Object(Slim\Psr7\Request)) #34 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\App.php(209): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #35 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\App.php(193): Slim\App->handle(Object(Slim\Psr7\Request)) #36 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\Starter.php(84): Slim\App->run() #37 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\ApplicationRunners\Api.php(45): Espo\Core\Api\Starter->start() #38 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Application\RunnerRunner.php(84): Espo\Core\ApplicationRunners\Api->run() #39 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Application.php(86): Espo\Core\Application\RunnerRunner->run('Espo\\Core\\Appli...', NULL) #40 C:\xampp\htdocs\EspoCRM-9.2.0\public\api\v1\index.php(35): Espo\Core\Application->run('Espo\\Core\\Appli...') #41 {main} Tips: To display error details in HTTP response set "displayErrorDetails" to true in the ErrorHandler constructor.
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 50
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 12:13:19] ERROR: Slim Application Error Type: TypeError Code: 0 Message: substr(): Argument #1 ($string) must be of type string, array given File: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Expression.php Line: 106 Trace: #0 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Expression.php(106): substr(Array, 0, 1) #1 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(139): LightnCandy\Expression::analyze(Array, Array) #2 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(244): LightnCandy\Validator::pushStack(Array, '#', Array) #3 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(644): LightnCandy\Validator::operator('#', Array, Array) #4 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Validator.php(52): LightnCandy\Validator::token(Array, Array) #5 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\Compiler.php(40): LightnCandy\Validator::verify(Array, '</span>\n    </d...') #6 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(46): LightnCandy\Compiler::compileTemplate(Array, '\n\n\n    \n\n\n\n    ...') #7 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Htmlizer\Htmlizer.php(113): LightnCandy\LightnCandy::compile('\n\n\n    \n\n\n\n    ...', Array) #8 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Htmlizer\TemplateRenderer.php(144): Espo\Core\Htmlizer\Htmlizer->render(Object(Espo\Core\Templates\Entities\Base), '\n\n\n    \n\n\n\n    ...', NULL, Array, false, true) #9 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Htmlizer\TemplateRenderer.php(139): Espo\Core\Htmlizer\TemplateRenderer->renderTemplateInternal('\n\n\n    \n\n\n\n    ...', Object(Espo\Core\Htmlizer\Htmlizer)) #10 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Dompdf\HtmlComposer.php(172): Espo\Core\Htmlizer\TemplateRenderer->renderTemplate('\n\n\n    \n\n\n\n    ...') #11 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Dompdf\EntityPrinter.php(58): Espo\Tools\Pdf\Dompdf\HtmlComposer->composeMain(Object(Espo\Tools\Pdf\TemplateWrapper), Object(Espo\Core\Templates\Entities\Base), Object(Espo\Tools\Pdf\Params), Object(Espo\Tools\Pdf\Data)) #12 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\PrinterController.php(82): Espo\Tools\Pdf\Dompdf\EntityPrinter->print(Object(Espo\Tools\Pdf\TemplateWrapper), Object(Espo\Core\Templates\Entities\Base), Object(Espo\Tools\Pdf\Params), Object(Espo\Tools\Pdf\Data)) #13 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\MassService.php(165): Espo\Tools\Pdf\PrinterController->printCollection(Object(Espo\ORM\EntityCollection), Object(Espo\Tools\Pdf\Params), Object(Espo\Tools\Pdf\IdDataMap)) #14 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Controllers\Pdf.php(86): Espo\Tools\Pdf\MassService->generate('CHRRequest', Array, '6a5f62409953938...') #15 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\ControllerActionProcessor.php(87): Espo\Controllers\Pdf->postActionMassPrint(Object(Espo\Core\Api\RequestWrapper), Object(Espo\Core\Api\ResponseWrapper)) #16 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\ControllerActionHandler.php(65): Espo\Core\Api\ControllerActionProcessor->process('Pdf', 'massPrint', Object(Espo\Core\Api\RequestWrapper), Object(Espo\Core\Api\ResponseWrapper)) #17 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Espo\Core\Api\ControllerActionHandler->handle(Object(Slim\Psr7\Request)) #18 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(221): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #19 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(148): Espo\Core\Api\RouteProcessor->processControllerAction(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Espo\Core\Api\ResponseWrapper)) #20 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(126): Espo\Core\Api\RouteProcessor->processAfterAuth(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Espo\Core\Api\ResponseWrapper)) #21 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\RouteProcessor.php(78): Espo\Core\Api\RouteProcessor->processInternal(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Espo\Core\Api\RequestWrapper), Object(Espo\Core\Api\ResponseWrapper)) #22 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\Starter.php(126): Espo\Core\Api\RouteProcessor->process(Object(Espo\Core\Api\ProcessData), Object(Slim\Psr7\Request), Object(Slim\Psr7\Response)) #23 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Handlers\Strategies\RequestResponse.php(38): Espo\Core\Api\Starter->Espo\Core\Api\{closure}(Object(Slim\Psr7\Request), Object(Slim\Psr7\Response), Array) #24 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Routing\Route.php(363): Slim\Handlers\Strategies\RequestResponse->__invoke(Object(Closure), Object(Slim\Psr7\Request), Object(Slim\Psr7\Response), Array) #25 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Slim\Routing\Route->handle(Object(Slim\Psr7\Request)) #26 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #27 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Routing\Route.php(321): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #28 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Routing\RouteRunner.php(74): Slim\Routing\Route->run(Object(Slim\Psr7\Request)) #29 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Middleware\RoutingMiddleware.php(45): Slim\Routing\RouteRunner->handle(Object(Slim\Psr7\Request)) #30 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(129): Slim\Middleware\RoutingMiddleware->process(Object(Slim\Psr7\Request), Object(Slim\Routing\RouteRunner)) #31 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\Middleware\ErrorMiddleware.php(77): Psr\Http\Server\RequestHandlerInterface@anonymous->handle(Object(Slim\Psr7\Request)) #32 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(129): Slim\Middleware\ErrorMiddleware->process(Object(Slim\Psr7\Request), Object(Psr\Http\Server\RequestHandlerInterface@anonymous)) #33 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\MiddlewareDispatcher.php(73): Psr\Http\Server\RequestHandlerInterface@anonymous->handle(Object(Slim\Psr7\Request)) #34 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\App.php(209): Slim\MiddlewareDispatcher->handle(Object(Slim\Psr7\Request)) #35 C:\xampp\htdocs\EspoCRM-9.2.0\vendor\slim\slim\Slim\App.php(193): Slim\App->handle(Object(Slim\Psr7\Request)) #36 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Api\Starter.php(84): Slim\App->run() #37 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\ApplicationRunners\Api.php(45): Espo\Core\Api\Starter->start() #38 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Application\RunnerRunner.php(84): Espo\Core\ApplicationRunners\Api->run() #39 C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Core\Application.php(86): Espo\Core\Application\RunnerRunner->run('Espo\\Core\\Appli...', NULL) #40 C:\xampp\htdocs\EspoCRM-9.2.0\public\api\v1\index.php(35): Espo\Core\Application->run('Espo\\Core\\Appli...') #41 {main} Tips: To display error details in HTTP response set "displayErrorDetails" to true in the ErrorHandler constructor.
+[2026-07-21 12:20:03] WARNING: (403) No access to template. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\Tools\Pdf\Service.php(105)
+[2026-07-21 12:36:25] ERROR: (0) Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! :: POST /Pdf/action/massPrint :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 19
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 19
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 19
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 26
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 26
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 26
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 33
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 33
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 33
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 19
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 19
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 19
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 26
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 26
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 26
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 33
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 33
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 33
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 40
+[2026-07-21 12:43:47] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 40
+[2026-07-21 12:43:47] ERROR: (0) Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! :: POST /Pdf/action/massPrint :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 14
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 21
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 28
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 35
+[2026-07-21 12:45:23] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 35
+[2026-07-21 12:45:23] ERROR: (0) Unexcepted ')' in expression 'if (not (equal subRequestType \'Attestation de travail\')) (not (equal subRequestType \'Attestation de salaire\')) (not (equal subRequestType \'Certificat de travail\'))' !! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 12:48:51] ERROR: (0) Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! :: POST /Pdf/action/massPrint :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 12:50:05] ERROR: (0) Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! :: POST /Pdf/action/massPrint :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 13:26:30] ERROR: (0) Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 53
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 53
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 53
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 67
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 67
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 67
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 53
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 53
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 53
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 67
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 67
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 67
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 74
+[2026-07-21 13:28:44] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 74
+[2026-07-21 13:28:44] ERROR: (0) Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Unexcepted ')' in expression 'unless (or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\') (equal subRequestType \'Certificat de travail\'))' !! Error in 'or (equal subRequestType \'Attestation de travail\') (equal subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 50
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 51
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 52
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 57
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): Misplaced DOCTYPE declaration in Entity, line: 50
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;html&gt; tag in Entity, line: 51
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;head&gt; tag in Entity, line: 52
+[2026-07-21 13:31:57] WARNING: E_WARNING: DOMDocument::loadHTML(): htmlParseStartTag: misplaced &lt;body&gt; tag in Entity, line: 57
+[2026-07-21 13:31:57] ERROR: (0) Wrong variable naming as 'requestPurpose</p>' in {{requestPurpose</p>      <!-- ❌ ERROR: Field doesn\'t exist -->     <p>Type : {{documentType}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] Wrong variable naming as '<!--' in {{requestPurpose</p>      <!-- ❌ ERROR: Field doesn\'t exist -->     <p>Type : {{documentType}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] Wrong variable naming as 'doesn\'t' in {{requestPurpose</p>      <!-- ❌ ERROR: Field doesn\'t exist -->     <p>Type : {{documentType}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] Wrong variable naming as '-->' in {{requestPurpose</p>      <!-- ❌ ERROR: Field doesn\'t exist -->     <p>Type : {{documentType}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] Wrong variable naming as '<p>Type' in {{requestPurpose</p>      <!-- ❌ ERROR: Field doesn\'t exist -->     <p>Type : {{documentType}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] Wrong variable naming as '{{documentType' in {{requestPurpose</p>      <!-- ❌ ERROR: Field doesn\'t exist -->     <p>Type : {{documentType}} ! You should wrap ! " # % & ' * + , ; < = > { | } ~ into [ ] :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 75
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 55
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 60
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 65
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute subrequesttype redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute de redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Attribute travail redefined in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): error parsing attribute name in Entity, line: 70
+[2026-07-21 13:34:02] WARNING: E_WARNING: DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 75
+[2026-07-21 13:34:02] ERROR: (0) Can not find custom helper function defination eq() ! Can not find custom helper function defination eq() ! Can not find custom helper function defination eq() ! Unexcepted ')' in expression 'unless (or (eq subRequestType \'Attestation de travail\') (eq subRequestType \'Attestation de salaire\') (eq subRequestType \'Certificat de travail\'))' !! Error in 'or (eq subRequestType \'Attestation de travail\') (eq subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Can not find custom helper function defination eq() ! Unexcepted ')' in expression 'unless (or (eq subRequestType \'Attestation de travail\') (eq subRequestType \'Attestation de salaire\') (eq subRequestType \'Certificat de travail\'))' !! Error in 'or (eq subRequestType \'Attestation de travail\') (eq subRequestType \'Attestation de salaire\'': expect ')' but the token ended!! Can not find custom helper function defination eq() ! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 13:50:15] ERROR: (0) Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 14:42:08] ERROR: (0) Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 14:44:59] ERROR: (0) Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! Can not find custom helper function defination neq() ! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 15:03:44] WARNING: E_WARNING: rename(data\tmp\tmpA23E.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-07-21 15:11:56] ERROR: (0) Unexpect token {{/if}} ! Previous token {{#[ifEqual]}} is not closed :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 15:15:21] ERROR: (0) Unexpect token {{/if}} ! Previous token {{#[ifEqual]}} is not closed :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)
+[2026-07-21 15:34:11] WARNING: E_WARNING: DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 4
+[2026-07-21 15:34:11] WARNING: E_WARNING: DOMDocument::loadHTML(): End tag : expected '&gt;' in Entity, line: 4
+[2026-07-21 16:06:56] WARNING: E_WARNING: rename(data\tmp\tmp7DB2.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2026-07-21 16:22:57] WARNING: (400) Field validation failure; entityType: CHRRequest, field: dateDeDbut, type: valid. :: POST /CHRRequest
+[2026-07-21 16:33:42] WARNING: (404) Template not found. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\EntryPoints\Pdf.php(69)
+[2026-07-21 16:34:00] WARNING: (404) Template not found. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\EntryPoints\Pdf.php(69)
+[2026-07-21 16:34:07] WARNING: (404) Template not found. :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\application\Espo\EntryPoints\Pdf.php(69)
+[2026-07-21 16:36:07] ERROR: (0) Unexpect token: {{/if}} ! Unexpect token: {{/if}} ! :: GET /EspoCRM-9.2.0/ :: C:\xampp\htdocs\EspoCRM-9.2.0\vendor\zordius\lightncandy\src\LightnCandy.php(108)

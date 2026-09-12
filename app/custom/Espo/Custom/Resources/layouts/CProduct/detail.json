@@ -1,0 +1,74 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "category"
+                }
+            ],
+            [
+                {
+                    "name": "phoneType"
+                }
+            ],
+            [
+                {
+                    "name": "swt"
+                }
+            ],
+            [
+                {
+                    "name": "typeCran"
+                }
+            ],
+            [
+                {
+                    "name": "typeSourie"
+                }
+            ],
+            [
+                {
+                    "name": "typeDeDisque"
+                },
+                {
+                    "name": "capacitDeStockage"
+                }
+            ],
+            [
+                {
+                    "name": "capacit"
+                }
+            ],
+            [
+                {
+                    "name": "typeDaccessoire"
+                }
+            ],
+            [
+                {
+                    "name": "typeDeCble"
+                }
+            ],
+            [
+                {
+                    "name": "typeDadaptateur"
+                }
+            ],
+            [
+                {
+                    "name": "quantity"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "streamUpdatedAt"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

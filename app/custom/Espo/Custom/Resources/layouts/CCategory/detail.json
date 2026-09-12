@@ -1,0 +1,18 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "streamUpdatedAt"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

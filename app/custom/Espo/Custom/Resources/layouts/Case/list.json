@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "cProductRequested",
+        "width": 16
+    },
+    {
+        "name": "cRequestType",
+        "width": 16
+    },
+    {
+        "name": "priority",
+        "width": 11
+    },
+    {
+        "name": "status",
+        "width": 11
+    }
+]

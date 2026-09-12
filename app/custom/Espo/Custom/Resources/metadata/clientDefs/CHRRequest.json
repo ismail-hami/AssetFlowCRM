@@ -1,0 +1,26 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": "#ffbe00",
+    "iconClass": "fas fa-book",
+    "recordViews": {
+        "detail": "custom:views/c-hr-request/record/detaill"
+    },
+    "rowActionList": [
+        "printPdf"
+    ],
+  "mergeDisabled": true,
+  "massUpdateDisabled": true,
+  "exportDisabled": true,
+  "massFollowDisabled": true,
+    "rowActionDefs": {
+        "printPdf": {
+            "handler": "custom:handlers/c-hr-request/row-action-print",
+            "labelTranslation": "Global.massActions.printPdf",
+            "groupIndex": 1
+        }
+    }
+}

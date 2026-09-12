@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "perpetual": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "licenseType",
+                        "value": "Perpetual"
+                    }
+                ]
+            },
+            "required": null
+        },
+        "networkLicense": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "licenseType",
+                        "value": "Network License"
+                    }
+                ]
+            },
+            "required": null
+        },
+        "annualSubscription": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "licenseType",
+                        "value": "AnnualSubscription"
+                    }
+                ]
+            },
+            "required": null
+        }
+    }
+}

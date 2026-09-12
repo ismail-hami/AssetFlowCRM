@@ -1,0 +1,26 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-newspaper",
+    "menu": {
+        "list": {
+            "buttons": [
+                "__APPEND__",
+                {
+                    "label": "Refresh Expiry",
+                    "name": "refreshExpiry",
+                    "style": "success",
+                    "iconClass": "fas fa-sync",
+                    "acl": "edit",
+                    "aclScope": "CLicenes",
+                    "handler": "custom:refresh-license-expiry-handler",
+                    "actionFunction": "refresh"
+                }
+            ]
+        }
+    },
+    "kanbanViewMode": false,
+    "color": null
+}

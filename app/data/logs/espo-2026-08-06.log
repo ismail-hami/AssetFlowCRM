@@ -1,0 +1,2 @@
+[2026-08-06 09:28:00] WARNING: E_WARNING: rename(data\tmp\tmp1D6.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2026-08-06 09:28:02] WARNING: E_WARNING: rename(data\tmp\tmp8C3.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)

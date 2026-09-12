@@ -1,0 +1,991 @@
+{
+    "options": {
+        "subRequestType": [
+            {
+                "optionList": [
+                    "Demande de congé annuel",
+                    "Congé maladie",
+                    "Congé maternité / paternité",
+                    "Congé sans solde",
+                    "Absence exceptionnelle",
+                    "Télétravail",
+                    "Déclaration d'heures supplémentaire"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            },
+            {
+                "optionList": [
+                    "Attestation de travail",
+                    "Attestation de salaire",
+                    "Certificat d'emploi",
+                    "Mise à jour des informations personnelles",
+                    "Changement d'adresse",
+                    "Modification des coordonnées bancaires",
+                    "Demande de copie de contrat"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion administrative"
+                    }
+                ]
+            },
+            {
+                "optionList": [
+                    "Demande de recrutement",
+                    "Recommandation de candida"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    }
+                ]
+            },
+            {
+                "optionList": [
+                    "Déclaration d'accident de travail",
+                    "Demande de visite médicale"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Santé et bien-être"
+                    }
+                ]
+            }
+        ],
+        "motifDeLaDemande": null,
+        "dcisionDemp": [
+            {
+                "optionList": [
+                    "Accepté",
+                    "Refusé",
+                    "Reporté",
+                    "pending"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            }
+        ],
+        "cinNumber": null,
+        "cnssNumber": null,
+        "requestType": [
+            {
+                "optionList": [
+                    "",
+                    "Gestion des congés et absences",
+                    "Gestion administrative",
+                    "Recrutement et mobilité"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "contains",
+                                "attribute": "$user.teamsIds",
+                                "data": {
+                                    "field": "teams",
+                                    "values": {
+                                        "linkName": "HR team",
+                                        "linkId": "6a5a32b052a49aa66"
+                                    }
+                                },
+                                "value": "6a5a32b052a49aa66"
+                            },
+                            {
+                                "type": "contains",
+                                "attribute": "$user.teamsIds",
+                                "data": {
+                                    "field": "teams",
+                                    "values": {
+                                        "linkName": "Équipe Leather",
+                                        "linkId": "6a842f269b75e79bf"
+                                    }
+                                },
+                                "value": "6a842f269b75e79bf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "optionList": [
+                    "",
+                    "Gestion des congés et absences",
+                    "Gestion administrative"
+                ],
+                "conditionGroup": [
+                    {
+                        "type": "contains",
+                        "attribute": "$user.teamsIds",
+                        "data": {
+                            "field": "teams",
+                            "values": {
+                                "linkName": "EMPLOYEE",
+                                "linkId": "6a5a3ea06c80fa0bc"
+                            }
+                        },
+                        "value": "6a5a3ea06c80fa0bc"
+                    }
+                ]
+            }
+        ]
+    },
+    "fields": {
+        "nombreJOD": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            },
+            "readOnlySaved": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            }
+        },
+        "reportuneDateUltrieure": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "dcisionDemp",
+                        "value": "Reporté"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "dcisionDemp",
+                        "value": "Reporté"
+                    }
+                ]
+            }
+        },
+        "dateDeDbut": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion des congés et absences"
+                                    },
+                                    {
+                                        "type": "or",
+                                        "value": [
+                                            {
+                                                "type": "notEquals",
+                                                "attribute": "gCA",
+                                                "value": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion administrative"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion administrative"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion des congés et absences"
+                            },
+                            {
+                                "type": "notEquals",
+                                "attribute": "gCA",
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "dateDeFin": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion administrative"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion des congés et absences"
+                                    },
+                                    {
+                                        "type": "notEquals",
+                                        "attribute": "gCA",
+                                        "value": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion administrative"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "and",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion des congés et absences"
+                                    },
+                                    {
+                                        "type": "notEquals",
+                                        "attribute": "gCA",
+                                        "value": null
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "dateEmbauche": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "cinNumber": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Demande de copie de contrat"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Demande de copie de contrat"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "cnssNumber": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat de travail"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "salaireNet": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de salaire"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de salaire"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "salaireLettres": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de salaire"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de salaire"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "gCA": {
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            },
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            }
+        },
+        "gA": {
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion administrative"
+                    }
+                ]
+            },
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion administrative"
+                    }
+                ]
+            }
+        },
+        "motifDeLaDemande": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "and",
+                        "value": [
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de travail"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Attestation de salaire"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Certificat d'emploi"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gA",
+                                        "value": "Demande de copie de contrat"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "gCA",
+                                        "value": "Absence exceptionnelle"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "or",
+                                "value": [
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion des congés et absences"
+                                    },
+                                    {
+                                        "type": "equals",
+                                        "attribute": "requestType",
+                                        "value": "Gestion administrative"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de travail"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de salaire"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Certificat d'emploi"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Demande de copie de contrat"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion des congés et absences"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "requestType",
+                                "value": "Gestion administrative"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "dcisionDemp": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion des congés et absences"
+                    }
+                ]
+            }
+        },
+        "rM": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    }
+                ]
+            }
+        },
+        "status": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "not",
+                        "value": {
+                            "type": "equals",
+                            "attribute": "requestType",
+                            "value": "Gestion des congés et absences"
+                        }
+                    }
+                ]
+            }
+        },
+        "description": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion administrative"
+                    },
+                    {
+                        "type": "equals",
+                        "attribute": "gA",
+                        "value": "Mise à jour des informations personnelles"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion administrative"
+                    },
+                    {
+                        "type": "equals",
+                        "attribute": "gA",
+                        "value": "Mise à jour des informations personnelles"
+                    }
+                ]
+            }
+        },
+        "intitulDuPoste": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    },
+                    {
+                        "type": "notEquals",
+                        "attribute": "rM",
+                        "value": null
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    },
+                    {
+                        "type": "notEquals",
+                        "attribute": "rM",
+                        "value": null
+                    }
+                ]
+            }
+        },
+        "typeDeBesoin": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    },
+                    {
+                        "type": "equals",
+                        "attribute": "rM",
+                        "value": "Demande de recrutement"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    },
+                    {
+                        "type": "equals",
+                        "attribute": "rM",
+                        "value": "Demande de recrutement"
+                    }
+                ]
+            }
+        },
+        "joindreLeCV": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Recrutement et mobilité"
+                    },
+                    {
+                        "type": "equals",
+                        "attribute": "rM",
+                        "value": "Recommandation de candidat"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": null
+                    },
+                    {
+                        "type": "equals",
+                        "attribute": "rM",
+                        "value": "Recommandation de candidat"
+                    }
+                ]
+            }
+        },
+        "requestType": {
+            "visible": null
+        },
+        "civilit": {
+            "visible": null,
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "requestType",
+                        "value": "Gestion administrative"
+                    },
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de travail"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Attestation de salaire"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "gA",
+                                "value": "Certificat de travail"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

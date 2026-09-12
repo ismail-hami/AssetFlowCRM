@@ -1,0 +1,33 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "managerFullName"
+                }
+            ],
+            [
+                {
+                    "name": "position"
+                }
+            ],
+            [
+                {
+                    "name": "profuctname"
+                }
+            ],
+            [
+                {
+                    "name": "streamUpdatedAt"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

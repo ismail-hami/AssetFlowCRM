@@ -1,0 +1,19 @@
+[2026-08-13 10:23:24] WARNING: E_WARNING: rename(data\tmp\tmp5D86.tmp,data/cache/application/autoload.php): Access is denied (code: 5)
+[2026-08-13 11:53:55] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-13 12:00:13] WARNING: (400) Not existing attribute 'category' in where. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Where\Checker.php(172)
+[2026-08-13 12:00:19] WARNING: (400) Not existing attribute 'category' in where. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Where\Checker.php(172)
+[2026-08-13 12:09:54] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:12] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:14] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:16] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:20] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:21] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:23] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:25] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:10:27] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:11:09] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 12:11:14] WARNING: (400) No primary filter 'f351344' for 'CProduct'. :: GET /CProduct :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\Select\Primary\Applier.php(70)
+[2026-08-13 14:39:18] WARNING: E_WARNING: mkdir(): File exists
+[2026-08-13 14:39:20] WARNING: E_WARNING: rename(data\tmp\tmpACD1.tmp,data/cache/application/classmapRepositories.php): Access is denied (code: 5)
+[2026-08-13 14:39:29] WARNING: E_WARNING: rmdir(data\cache\application): Resource temporarily unavailable
+[2026-08-13 14:39:29] ERROR: (500) Error while clearing cache :: POST /Admin/rebuild :: C:\inetpub\wwwroot\AssetFlowCRM\application\Espo\Core\DataManager.php(106)

@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "profuctname": {
+            "visible": null,
+            "required": null
+        },
+        "managerFullName": {
+            "visible": null,
+            "required": null
+        },
+        "position": {
+            "visible": null,
+            "required": null
+        }
+    }
+}

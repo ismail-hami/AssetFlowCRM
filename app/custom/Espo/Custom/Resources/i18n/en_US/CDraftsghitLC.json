@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "license": "License",
+        "seats": "Seats",
+        "expires": "Expires",
+        "mtnExpires": "Mtn Expires",
+        "reactivationDate": "Reactivation Date"
+    },
+    "links": [],
+    "labels": {
+        "Create CDraftsghitLC": "Create Licence DraftSight"
+    }
+}

@@ -1,0 +1,836 @@
+/* ============================================================
+   CUSTOM LIGHT THEME - Play Design International CRM
+   Charge automatiquement sur TOUTES les pages (y compris login)
+   via custom/Espo/Custom/Resources/metadata/app/client.json (cssList)
+
+   Si un selecteur ne s'applique pas chez toi, ouvre l'inspecteur
+   du navigateur (clic droit > Inspecter) sur l'element concerne
+   pour verifier son vrai nom de classe et ajuster ici.
+   ============================================================ */
+
+:root {
+    --pd-accent: #D85A30;
+    --pd-accent-dark: #993C1D;
+    --pd-bg: #FAF9F6;
+    --pd-surface: #FFFFFF;
+    --pd-border: #E5E3DC;
+    --pd-text: #2C2C2A;
+    --pd-text-muted: #888780;
+
+    --pd-success-bg: #EAF3DE;
+    --pd-success-text: #27500A;
+    --pd-danger-bg: #FCEBEB;
+    --pd-danger-text: #791F1F;
+    --pd-warning-bg: #FAEEDA;
+    --pd-warning-text: #633806;
+    --pd-info-bg: #E6F1FB;
+    --pd-info-text: #0C447C;
+}
+
+/* ============================================================
+   FOND GENERAL
+   ============================================================ */
+
+body,
+.content {
+    background-color: var(--pd-bg) !important;
+}
+
+/* ============================================================
+   PAGE DE LOGIN
+   ============================================================ */
+
+#login,
+.login-page,
+.panel-login {
+    background-color: var(--pd-surface) !important;
+    border: 1px solid var(--pd-border) !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+}
+
+#login .panel-heading,
+.login-page .panel-heading {
+    background-color: var(--pd-surface) !important;
+    border-bottom: 1px solid var(--pd-border) !important;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+#login input.form-control,
+.login-page input.form-control {
+    border-radius: 8px !important;
+    border: 1px solid var(--pd-border) !important;
+}
+
+#login .btn-primary,
+.login-page .btn-primary {
+    background-color: var(--pd-accent) !important;
+    border-color: var(--pd-accent) !important;
+    border-radius: 8px !important;
+}
+
+#login .btn-primary:hover,
+.login-page .btn-primary:hover {
+    background-color: var(--pd-accent-dark) !important;
+    border-color: var(--pd-accent-dark) !important;
+}
+
+/* ============================================================
+   BARRE DE NAVIGATION (top ou side selon parametre du theme)
+   ============================================================ */
+
+.navbar,
+#navbar {
+    background-color: var(--pd-surface) !important;
+    border-bottom: 1px solid var(--pd-border) !important;
+    box-shadow: none !important;
+}
+
+.navbar .nav > li > a,
+#navbar .nav-item a {
+    color: var(--pd-text) !important;
+}
+
+.navbar .nav > li.active > a,
+#navbar .nav-item.active a {
+    color: var(--pd-accent) !important;
+    font-weight: 500 !important;
+}
+
+/* ============================================================
+   BOUTONS GENERAUX
+   ============================================================ */
+
+.btn {
+    border-radius: 8px !important;
+}
+
+.btn-primary,
+.btn-danger.btn-primary {
+    background-color: var(--pd-accent) !important;
+    border-color: var(--pd-accent) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--pd-accent-dark) !important;
+    border-color: var(--pd-accent-dark) !important;
+}
+
+/* ============================================================
+   PANNEAUX / CARTES (detail view, dashlets)
+   ============================================================ */
+
+.panel,
+.panel-default {
+    background-color: var(--pd-surface) !important;
+    border: 1px solid var(--pd-border) !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+}
+
+.panel-heading {
+    background-color: var(--pd-surface) !important;
+    border-bottom: 1px solid var(--pd-border) !important;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* ============================================================
+   LISTES (tableaux CHRRequest / CITRequest / CProduct / CSoftware)
+   ============================================================ */
+
+.list-container table.table,
+table.list {
+    border-collapse: separate !important;
+    border-spacing: 0 6px !important;
+    background: transparent !important;
+}
+
+.list-container table.table > tbody > tr,
+table.list > tbody > tr {
+    background-color: var(--pd-surface) !important;
+    border: 1px solid var(--pd-border) !important;
+    border-radius: 8px !important;
+}
+
+.list-container table.table > tbody > tr:hover,
+table.list > tbody > tr:hover {
+    border-color: var(--pd-accent) !important;
+}
+
+.list-container table.table > tbody > tr > td,
+table.list > tbody > tr > td {
+    border-top: none !important;
+    vertical-align: middle !important;
+}
+
+/* ============================================================
+   BADGES DE STATUT (champs enum avec "style" defini dans entityDefs)
+   ============================================================ */
+
+.label,
+.label-md {
+    border-radius: 20px !important;
+    padding: 3px 10px !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+}
+
+.label-success {
+    background-color: var(--pd-success-bg) !important;
+    color: var(--pd-success-text) !important;
+}
+
+.label-danger {
+    background-color: var(--pd-danger-bg) !important;
+    color: var(--pd-danger-text) !important;
+}
+
+.label-warning {
+    background-color: var(--pd-warning-bg) !important;
+    color: var(--pd-warning-text) !important;
+}
+
+.label-primary,
+.label-info {
+    background-color: var(--pd-info-bg) !important;
+    color: var(--pd-info-text) !important;
+}
+
+.label-default {
+    background-color: #F1EFE8 !important;
+    color: var(--pd-text-muted) !important;
+}
+
+/* Rejected / Refused -> purple pill (like the reference screenshot),
+   instead of the default red "danger" color.
+   Scoped via title attribute so other red badges in the CRM are untouched. */
+:root {
+    --pd-purple-bg: #EFEAFB;
+    --pd-purple-text: #5B3FA0;
+}
+
+.label[title="Rejected"],
+.label-md[title="Rejected"],
+.label[title="Refused"],
+.label-md[title="Refused"],
+.label-danger[title="Rejected"],
+.label-danger[title="Refused"] {
+    background-color: var(--pd-purple-bg) !important;
+    color: var(--pd-purple-text) !important;
+}
+
+/* ============================================================
+   AVATARS (utilisateur assigne)
+   ============================================================ */
+
+.avatar,
+.avatar-image {
+    border-radius: 50% !important;
+}
+
+/* ============================================================
+   LOGIN PAGE
+   ============================================================ */
+
+html, body {
+    height: 100% !important;
+    margin: 0 !important;
+}
+
+#main {
+    height: 100% !important;
+}
+
+.login-page-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at 30% 20%, #fdece4 0%, var(--pd-bg) 55%);
+    padding: 20px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--pd-surface);
+    border: 1px solid var(--pd-border);
+    border-radius: 16px;
+    padding: 44px 40px 40px;
+    box-shadow: 0 12px 40px rgba(44, 44, 42, 0.08), 0 2px 8px rgba(44, 44, 42, 0.04);
+}
+
+.login-card-logo {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.login-card-logo .logo {
+    max-height: 46px;
+}
+
+.login-card label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--pd-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 8px;
+}
+
+.login-card .form-group.cell {
+    margin-bottom: 20px;
+}
+
+.login-card input.form-control {
+    border-radius: 10px !important;
+    border: 1.5px solid var(--pd-border) !important;
+    padding: 12px 14px !important;
+    height: auto !important;
+    font-size: 15px !important;
+    background-color: #FDFCFA !important;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.login-card input.form-control:focus {
+    border-color: var(--pd-accent) !important;
+    box-shadow: 0 0 0 4px rgba(216, 90, 48, 0.1) !important;
+    background-color: #fff !important;
+}
+
+/* kill Chrome's blue autofill background */
+.login-card input:-webkit-autofill,
+.login-card input:-webkit-autofill:hover,
+.login-card input:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--pd-text) !important;
+    -webkit-box-shadow: 0 0 0px 1000px #FDFCFA inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.login-card .btn-primary {
+    width: 100%;
+    padding: 12px !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    margin-top: 4px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+}
+
+.login-card [data-role="password-input-container"] {
+    position: relative !important;
+    display: block !important;
+}
+
+.login-card [data-role="password-input-container"] input.form-control {
+    padding-right: 42px !important;
+}
+
+.login-card [data-action="toggleShowPassword"] {
+    position: absolute !important;
+    right: 14px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    height: auto !important;
+}
+
+/* ============================================================
+   BARRE DE RECHERCHE GLOBALE - masquee (navbar)
+   ============================================================ */
+
+.global-search-container {
+    display: none !important;
+}
+
+/* hide EspoCRM footer credit */
+body > footer,
+.login-page-wrapper + footer,
+.credit {
+    display: none !important;
+}
+
+/* ============================================================
+   POLISH PASS - transitions, hovers, flex layout
+   Tout ce qui suit s'ajoute au theme existant sans le casser.
+   ============================================================ */
+
+/* transitions globales sur ce qui bouge deja au hover */
+.btn,
+.panel,
+.panel-default,
+.label,
+.label-md,
+.avatar,
+.list-container table.table > tbody > tr,
+table.list > tbody > tr,
+.navbar .nav > li > a,
+#navbar .nav-item a,
+.dashlet,
+.list-row-buttons .btn,
+input.form-control,
+select.form-control {
+    transition: all 0.18s ease !important;
+}
+
+/* boutons : leger lift + shadow au survol, pas juste un changement de couleur */
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-primary:hover,
+.btn-danger.btn-primary:hover {
+    box-shadow: 0 4px 12px rgba(216, 90, 48, 0.25) !important;
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: none !important;
+}
+
+/* panneaux / cartes / dashlets : hover discret pour montrer que c'est cliquable */
+.panel:hover,
+.panel-default:hover,
+.dashlet:hover {
+    border-color: #D8D5CC !important;
+    box-shadow: 0 4px 16px rgba(44, 44, 42, 0.06) !important;
+}
+
+/* lignes de liste : lift leger + ombre au survol en plus du changement de bordure */
+.list-container table.table > tbody > tr:hover,
+table.list > tbody > tr:hover {
+    box-shadow: 0 2px 8px rgba(44, 44, 42, 0.06) !important;
+    transform: translateY(-1px);
+}
+
+/* nav links : soulignement anime au lieu d'un simple changement de couleur */
+.navbar .nav > li > a,
+#navbar .nav-item a {
+    position: relative;
+}
+
+.navbar .nav > li > a::after,
+#navbar .nav-item a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    height: 2px;
+    background: var(--pd-accent);
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.18s ease;
+}
+
+.navbar .nav > li:hover > a::after,
+#navbar .nav-item:hover a::after,
+.navbar .nav > li.active > a::after,
+#navbar .nav-item.active a::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+/* badges/labels : leger scale au survol quand ils sont dans une ligne cliquable */
+tr:hover .label,
+tr:hover .label-md {
+    filter: brightness(0.97);
+}
+
+/* avatar : ring au survol */
+.avatar:hover,
+.avatar-image:hover {
+    box-shadow: 0 0 0 3px rgba(216, 90, 48, 0.18) !important;
+}
+
+/* inputs : focus plus visible partout (pas juste sur le login) */
+input.form-control:focus,
+select.form-control:focus,
+textarea.form-control:focus {
+    border-color: var(--pd-accent) !important;
+    box-shadow: 0 0 0 3px rgba(216, 90, 48, 0.1) !important;
+}
+
+/* ============================================================
+   FLEXIBILITE / RESPONSIVE
+   ============================================================ */
+
+/* dashboard : grille flex qui wrap au lieu de colonnes figees */
+#dashboard,
+.dashboard-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 16px !important;
+}
+
+.dashboard-container > .cell,
+#dashboard .cell {
+    flex: 1 1 320px !important;
+}
+
+/* detail view : le panneau lateral passe en dessous sur petit ecran au lieu de casser la mise en page */
+.detail-side {
+    min-width: 260px;
+}
+
+@media (max-width: 992px) {
+    .detail-container,
+    .record-container {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .detail-side {
+        width: 100% !important;
+        order: 2;
+    }
+
+    .detail-middle {
+        order: 1;
+    }
+}
+
+/* boutons de la barre d'actions : wrap proprement au lieu de deborder */
+.record-buttons,
+.list-buttons-container,
+.detail-button-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+    align-items: center !important;
+}
+
+/* login : recentrage garanti quelle que soit la hauteur de l'ecran */
+.login-page-wrapper {
+    display: flex !important;
+}
+
+@media (max-width: 480px) {
+    .login-card {
+        padding: 32px 24px 28px;
+        border-radius: 12px;
+    }
+}
+
+/* ============================================================
+   POLISH PASS 2 - scrollbar, dropdowns, modals, tabs, tables
+   ============================================================ */
+
+/* scrollbar fine et discret (Chrome/Edge/Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D8D5CC;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--pd-accent);
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #D8D5CC transparent;
+}
+
+/* menus deroulants : arrondi + ombre + hover fluide sur les items */
+.dropdown-menu {
+    border: 1px solid var(--pd-border) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 24px rgba(44, 44, 42, 0.1) !important;
+    padding: 6px !important;
+}
+
+.dropdown-menu > li > a {
+    border-radius: 6px !important;
+    transition: background 0.15s ease, color 0.15s ease !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: var(--pd-bg) !important;
+    color: var(--pd-accent) !important;
+}
+
+/* modales : coins arrondis + entree en fondu/scale */
+.modal-content {
+    border-radius: 14px !important;
+    border: none !important;
+    box-shadow: 0 16px 48px rgba(44, 44, 42, 0.18) !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--pd-border) !important;
+    border-radius: 14px 14px 0 0 !important;
+}
+
+.modal.fade .modal-dialog {
+    transform: translateY(-16px) scale(0.98);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0;
+}
+
+.modal.in .modal-dialog {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+
+/* onglets (detail view : Overview / Activities / ...) */
+.nav-tabs > li > a {
+    border-radius: 8px 8px 0 0 !important;
+    transition: color 0.15s ease, border-color 0.15s ease !important;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li > a:hover {
+    color: var(--pd-accent) !important;
+}
+
+.nav-tabs > li.active > a {
+    border-bottom: 2px solid var(--pd-accent) !important;
+}
+
+/* en-tete de tableau : plus discret, un peu d'espace */
+.list-container table.table > thead > tr > th,
+table.list > thead > tr > th {
+    border-bottom: 1px solid var(--pd-border) !important;
+    color: var(--pd-text-muted) !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.03em !important;
+    padding-bottom: 10px !important;
+}
+
+/* checkboxes / radios ronds et colores */
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    accent-color: var(--pd-accent);
+}
+
+/* tags multi-select : pilules arrondies coherentes avec les badges */
+.tag,
+.multi-enum-tag-container .tag {
+    border-radius: 20px !important;
+    transition: background 0.15s ease !important;
+}
+
+/* apparition en fondu du contenu principal au changement de page */
+#main {
+    animation: pd-fade-in 0.18s ease;
+}
+
+@keyframes pd-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* ============================================================
+   POLISH PASS 3 - sidebar, panels, buttons, forms, misc
+   ============================================================ */
+
+/* --- sidebar / menu lateral --- */
+#navbar,
+.navbar-side {
+    background-color: var(--pd-surface) !important;
+    border-right: 1px solid var(--pd-border) !important;
+}
+
+#navbar .nav-item,
+.navbar-side .nav > li {
+    border-radius: 8px !important;
+    margin: 2px 8px !important;
+}
+
+#navbar .nav-item a,
+.navbar-side .nav > li > a {
+    border-radius: 8px !important;
+    color: var(--pd-text) !important;
+}
+
+#navbar .nav-item:hover,
+.navbar-side .nav > li:hover {
+    background-color: var(--pd-bg) !important;
+}
+
+#navbar .nav-item.active,
+.navbar-side .nav > li.active {
+    background-color: rgba(216, 90, 48, 0.08) !important;
+}
+
+#navbar .nav-item.active a,
+.navbar-side .nav > li.active > a {
+    color: var(--pd-accent) !important;
+    font-weight: 600 !important;
+}
+
+/* --- en-tetes de panneaux : plus de caractere --- */
+.panel-heading,
+.panel-default > .panel-heading {
+    background-color: var(--pd-surface) !important;
+    border-bottom: 1px solid var(--pd-border) !important;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 14px 18px !important;
+}
+
+.panel-title {
+    font-weight: 700 !important;
+    letter-spacing: -0.01em !important;
+    color: var(--pd-text) !important;
+}
+
+.panel,
+.panel-default {
+    border-radius: 10px !important;
+    border: 1px solid var(--pd-border) !important;
+    box-shadow: 0 1px 3px rgba(44, 44, 42, 0.04) !important;
+}
+
+/* --- boutons : rendu plus soigne --- */
+.btn {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.01em !important;
+}
+
+.btn-primary,
+.btn-danger.btn-primary {
+    background-color: var(--pd-accent) !important;
+    border-color: var(--pd-accent) !important;
+}
+
+.btn-primary:hover,
+.btn-danger.btn-primary:hover {
+    background-color: var(--pd-accent-dark) !important;
+    border-color: var(--pd-accent-dark) !important;
+}
+
+.btn-default {
+    border-color: var(--pd-border) !important;
+    color: var(--pd-text) !important;
+}
+
+.btn-default:hover {
+    background-color: var(--pd-bg) !important;
+    border-color: var(--pd-accent) !important;
+    color: var(--pd-accent) !important;
+}
+
+/* --- formulaires --- */
+.form-control {
+    border-radius: 8px !important;
+    border-color: var(--pd-border) !important;
+}
+
+.detail-view label.control-label,
+.field-label {
+    color: var(--pd-text-muted) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.03em !important;
+}
+
+/* --- fil d'ariane --- */
+.breadcrumb {
+    background: transparent !important;
+    padding-left: 0 !important;
+}
+
+.breadcrumb > li + li::before {
+    color: var(--pd-text-muted) !important;
+}
+
+.breadcrumb .selected {
+    color: var(--pd-text) !important;
+    font-weight: 600 !important;
+}
+
+/* --- pagination --- */
+.pagination > li > a,
+.pagination > li > span {
+    border-radius: 6px !important;
+    margin: 0 2px !important;
+    border-color: var(--pd-border) !important;
+    color: var(--pd-text) !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span {
+    background-color: var(--pd-accent) !important;
+    border-color: var(--pd-accent) !important;
+}
+
+.pagination > li > a:hover {
+    background-color: var(--pd-bg) !important;
+    border-color: var(--pd-accent) !important;
+    color: var(--pd-accent) !important;
+}
+
+/* --- alertes / notifications --- */
+.alert {
+    border: none !important;
+    border-radius: 10px !important;
+    border-left: 4px solid transparent !important;
+}
+
+.alert-success {
+    background-color: var(--pd-success-bg) !important;
+    color: var(--pd-success-text) !important;
+    border-left-color: var(--pd-success-text) !important;
+}
+
+.alert-danger {
+    background-color: var(--pd-danger-bg) !important;
+    color: var(--pd-danger-text) !important;
+    border-left-color: var(--pd-danger-text) !important;
+}
+
+.alert-warning {
+    background-color: var(--pd-warning-bg) !important;
+    color: var(--pd-warning-text) !important;
+    border-left-color: var(--pd-warning-text) !important;
+}
+
+.alert-info {
+    background-color: var(--pd-info-bg) !important;
+    color: var(--pd-info-text) !important;
+    border-left-color: var(--pd-info-text) !important;
+}
+
+/* --- zebra striping leger sur les listes pour la lisibilite --- */
+.list-container table.table > tbody > tr:nth-child(even),
+table.list > tbody > tr:nth-child(even) {
+    background-color: rgba(44, 44, 42, 0.015) !important;
+}
+
+/* --- separation plus nette entre sections du detail view --- */
+.detail .panel + .panel {
+    margin-top: 16px !important;
+}
+
+/* ============================================================
+   ICONE CUSTOM POUR L'ONGLET ACCUEIL
+   structure reelle (client/res/templates/site/navbar.tpl) :
+   li[data-name="Home"] > a > span.short-label > span.{iconClass}
+   ============================================================ */
+li[data-name="Home"] .short-label {
+    background-image: url('../img/home-vector-icon-Photoroo.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li[data-name="Home"] .short-label span {
+    visibility: hidden;
+}

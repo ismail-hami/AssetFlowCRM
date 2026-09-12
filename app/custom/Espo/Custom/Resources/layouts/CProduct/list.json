@@ -1,0 +1,22 @@
+[
+    {
+        "name": "category",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "type",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "quantity",
+        "width": 25,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 25,
+        "align": "left"
+    }
+]

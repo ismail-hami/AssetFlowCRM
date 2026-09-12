@@ -1,0 +1,107 @@
+{
+    "fields": {
+        "requestType": "Type de demande",
+        "status": "Statut",
+        "name": "Nom complet",
+        "pdfTemplate": "Modèle PDF",
+        "subRequestType": "Sous-type de demande",
+        "matricule": "Matricule",
+        "fonctionPoste": "Fonction / Poste",
+        "department": "Département",
+        "motifDeLaDemande": "Motif de la demande",
+        "nombreJOD": "Nombre de jours ouvrés demandés",
+        "dcisionDemp": "Décision",
+        "reportuneDateUltrieure": "Reporté à une date ultérieure",
+        "dateDeDbut": "Date de début",
+        "dateDeFin": "Date de fin",
+        "dateEmbauche": "Date d'embauche",
+        "cinNumber": "Numéro CIN",
+        "cnssNumber": "Numéro CNSS",
+        "salaireNet": "Salaire net",
+        "salaireLettres": "Salaire en lettres",
+        "gCA": "Type de congé",
+        "gA": "Type de document",
+        "rM": "Type de recrutement",
+        "seE": "Santé et bien-être",
+        "intitulDuPoste": "Poste recommandé",
+        "typeDeBesoin": "Type de besoin",
+        "joindreLeCV": "Joindre le CV"
+    },
+    "links": [],
+    "labels": {
+        "Create CHRRequest": "Créer une demande RH",
+        "Overview": "Coordonnées et informations"
+    },
+    "options": {
+        "requestType": {
+            "Leave Paper": "Demande de congé",
+            "Product Request": "Demande de produit",
+            "Other": "Autre",
+            "Salary Advance": "Avance sur salaire",
+            "Gestion des congés et absences": "Congés et absences",
+            "Gestion administrative": "Demande administrative",
+            "Recrutement et mobilité": "Recrutement et mobilité",
+            "Santé et bien-être": "Santé et bien-être",
+            "": "- Veuillez choisir votre demande -"
+        },
+        "status": {
+            "new": "Nouveau",
+            "pending": "En attente",
+            "accepted": "Accepté",
+            "rejected": "Rejeté",
+            "Processing": "En cours",
+            "Reporté": "Reporté"
+        },
+        "subRequestType": {
+            "": ""
+        },
+        "dcisionDemp": {
+            "Accepté": "Accepté",
+            "Refusé": "Refusé",
+            "Reporté à une date ultérieure": "Reporté à une date ultérieure",
+            "": "",
+            "pending": "En attente",
+            "Reporté": "Reporté"
+        },
+        "gCA": {
+            "Demande de congé annuel": "Demande de congé annuel",
+            "Congé maladie": "Congé maladie",
+            "Congé maternité / paternité": "Congé maternité / paternité",
+            "Congé sans solde": "Congé sans solde",
+            "Absence exceptionnelle": "Absence exceptionnelle",
+            "Télétravail": "Télétravail",
+            "Déclaration d'heures supplémentaire": "Déclaration d'heures supplémentaire",
+            "": ""
+        },
+        "gA": {
+            "Attestation de travail": "Attestation de travail",
+            "Attestation de salaire": "Attestation de salaire",
+            "Certificat d'emploi": "Certificat d'emploi",
+            "Mise à jour des informations personnelles": "Mise à jour des informations personnelles",
+            "Changement d'adresse": "Changement d'adresse",
+            "Modification des coordonnées bancaires": "Modification des coordonnées bancaires",
+            "Demande de copie de contrat": "Demande de copie de contrat",
+            "": ""
+        },
+        "rM": {
+            "Demande de recrutement": "Demande de recrutement",
+            "Recommandation de candidat": "Recommandation de candidat",
+            "": ""
+        },
+        "seE": {
+            "Déclaration d'accident de travail": "Déclaration d'accident de travail",
+            "Demande de visite médicale": "Demande de visite médicale",
+            "": ""
+        },
+        "typeDeBesoin": {
+            "": "",
+            "Remplacement d'un départ": "Remplacement d'un départ",
+            "Création de poste": "Création de poste",
+            "Renforcement temporaire": "Renforcement temporaire",
+            "Stagiaire": "Stagiaire"
+        }
+    },
+    "tooltips": {
+        "requestType": "Veuillez choisir votre demande"
+    }
+}

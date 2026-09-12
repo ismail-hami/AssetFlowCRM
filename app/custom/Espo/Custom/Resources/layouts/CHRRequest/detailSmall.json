@@ -1,0 +1,26 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "dcisionDemp"
+                },
+                {
+                    "name": "reportuneDateUltrieure"
+                }
+            ],
+            [
+                {
+                    "name": "subRequestType"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

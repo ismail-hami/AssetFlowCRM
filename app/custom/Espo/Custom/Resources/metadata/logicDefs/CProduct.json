@@ -1,0 +1,309 @@
+{
+    "fields": {
+        "typeCran": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Écran"
+                            }
+                        },
+                        "value": "6a7d8fd1ef0993d20"
+                    }
+                ]
+            }
+        },
+        "typeSourie": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "categoryId",
+                                "data": {
+                                    "field": "category",
+                                    "values": {
+                                        "categoryName": "Sourie"
+                                    }
+                                },
+                                "value": "6a7d8f8de31fbc469"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "categoryId",
+                                "data": {
+                                    "field": "category",
+                                    "values": {
+                                        "categoryName": "clavier"
+                                    }
+                                },
+                                "value": "6a7d8f9c320e2756d"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "or",
+                        "value": [
+                            {
+                                "type": "equals",
+                                "attribute": "categoryId",
+                                "data": {
+                                    "field": "category",
+                                    "values": {
+                                        "categoryName": "Sourie"
+                                    }
+                                },
+                                "value": "6a7d8f8de31fbc469"
+                            },
+                            {
+                                "type": "equals",
+                                "attribute": "categoryId",
+                                "data": {
+                                    "field": "category",
+                                    "values": {
+                                        "categoryName": "clavier"
+                                    }
+                                },
+                                "value": "6a7d8f9c320e2756d"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "typeDeDisque": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Disque dur"
+                            }
+                        },
+                        "value": "6a7d8fcc20f2b2410"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Disque dur"
+                            }
+                        },
+                        "value": "6a7d8fcc20f2b2410"
+                    }
+                ]
+            }
+        },
+        "capacitDeStockage": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Disque dur"
+                            }
+                        },
+                        "value": "6a7d8fcc20f2b2410"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Disque dur"
+                            }
+                        },
+                        "value": "6a7d8fcc20f2b2410"
+                    }
+                ]
+            }
+        },
+        "typeDeCble": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Cables"
+                            }
+                        },
+                        "value": "6a7d8ff7171fa5f82"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Cables"
+                            }
+                        },
+                        "value": "6a7d8ff7171fa5f82"
+                    }
+                ]
+            }
+        },
+        "typeDaccessoire": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Accessoires"
+                            }
+                        },
+                        "value": "6a7d90446d1bd6e91"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Accessoires"
+                            }
+                        },
+                        "value": "6a7d90446d1bd6e91"
+                    }
+                ]
+            }
+        },
+        "capacit": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "RAM"
+                            }
+                        },
+                        "value": "6a7d8fff3d40f4524"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "RAM"
+                            }
+                        },
+                        "value": "6a7d8fff3d40f4524"
+                    }
+                ]
+            }
+        },
+        "typeDadaptateur": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Adapter"
+                            }
+                        },
+                        "value": "6a7d9eba66c48618f"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Adapter"
+                            }
+                        },
+                        "value": "6a7d9eba66c48618f"
+                    }
+                ]
+            }
+        },
+        "swt": {
+            "visible": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Switch"
+                            }
+                        },
+                        "value": "6a8442b41edd70301"
+                    }
+                ]
+            },
+            "required": {
+                "conditionGroup": [
+                    {
+                        "type": "equals",
+                        "attribute": "categoryId",
+                        "data": {
+                            "field": "category",
+                            "values": {
+                                "categoryName": "Switch"
+                            }
+                        },
+                        "value": "6a8442b41edd70301"
+                    }
+                ]
+            }
+        }
+    }
+}

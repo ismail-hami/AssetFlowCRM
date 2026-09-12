@@ -1,0 +1,107 @@
+{
+    "fields": {
+        "requestType": "Request Type",
+        "status": "Status",
+        "name": "Full Name",
+        "pdfTemplate": "PDF Template",
+        "subRequestType": "Sub-Request Type",
+        "fonctionPoste": "Position / Role",
+        "department": "Department",
+        "motifDeLaDemande": "Reason for Request",
+        "nombreJOD": "Number of Working Days Requested",
+        "dcisionDemp": "Employer Decision",
+        "reportuneDateUltrieure": "Postponed to a Later Date",
+        "dateDeDbut": "Start Date",
+        "dateDeFin": "End Date",
+        "dateEmbauche": "Hire Date",
+        "cinNumber": "CIN Number",
+        "cnssNumber": "CNSS Number",
+        "salaireNet": "Net Salary",
+        "salaireLettres": "Salary in Words",
+        "gCA": "Type de congé",
+        "gA": "Type de document",
+        "rM": "Type de recrutement",
+        "intitulDuPoste": "Poste recommandé",
+        "typeDeBesoin": "Type de besoin",
+        "joindreLeCV": "Joindre le CV",
+        "civilit": "Civilité"
+    },
+    "links": [],
+    "labels": {
+        "Create CHRRequest": "Créer Demande RH"
+    },
+    "options": {
+        "requestType": {
+            "Leave Paper": "Leave Paper",
+            "Product Request": "Product Request",
+            "Other": "Other",
+            "Salary Advance": "Salary Advance",
+            "Gestion des congés et absences": "Congés et absences",
+            "Gestion administrative": "Demande administrative",
+            "Recrutement et mobilité": "Recrutement et mobilité",
+            "Santé et bien-être": "Health & Wellbeing",
+            "": "- Veuillez choisir votre demande -"
+        },
+        "status": {
+            "new": "New",
+            "pending": "Pending",
+            "accepted": "Accepted",
+            "rejected": "Rejected",
+            "Processing": "Processing",
+            "Reporté": "Postponed"
+        },
+        "subRequestType": {
+            "": ""
+        },
+        "dcisionDemp": {
+            "Accepté": "Accepted",
+            "Refusé": "Rejected",
+            "Reporté à une date ultérieure": "Postponed to a later date",
+            "": "",
+            "pending": "Pending",
+            "Reporté": "Reporté"
+        },
+        "gCA": {
+            "Demande de congé annuel": "Demande de congé annuel",
+            "Congé maladie": "Congé maladie",
+            "Congé maternité / paternité": "Congé maternité / paternité",
+            "Congé sans solde": "Congé sans solde",
+            "Absence exceptionnelle": "Absence exceptionnelle",
+            "Télétravail": "Télétravail",
+            "Déclaration d'heures supplémentaire": "Overtime Declaration",
+            "": ""
+        },
+        "gA": {
+            "Attestation de travail": "Attestation de travail",
+            "Attestation de salaire": "Attestation de salaire",
+            "Certificat d'emploi": "Certificat de Travail",
+            "Mise à jour des informations personnelles": "Mise à jour des informations personnelles",
+            "Changement d'adresse": "Address Change",
+            "Modification des coordonnées bancaires": "Bank Details Modification",
+            "Demande de copie de contrat": "Demande de copie de contrat",
+            "": "",
+            "Certificat de Travail": "Certificat de Travail",
+            "Certificat de travail": "Certificat de travail"
+        },
+        "rM": {
+            "Demande de recrutement": "Recruitment Request",
+            "Recommandation de candidat": "Candidate Recommendation",
+            "": ""
+        },
+        "typeDeBesoin": {
+            "": "",
+            "Remplacement d'un départ": "Remplacement d'un départ",
+            "Création de poste": "Création de poste",
+            "Renforcement temporaire": "Renforcement temporaire",
+            "Stagiaire": "Stagiaire"
+        },
+        "civilit": {
+            "": "",
+            "Mr": "Mr",
+            "Mme": "Mme"
+        }
+    },
+    "tooltips": {
+        "requestType": "Please select your request"
+    }
+}

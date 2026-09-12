@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AssetFlow ERP — Documentation</title>
+<meta name="description" content="AssetFlow ERP : personnalisation d'EspoCRM pour la gestion d'inventaire IT et des demandes internes. Installation, utilisation, sauvegarde.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="index">
+
+<div id="progress"></div>
+<div class="bg-grid"></div>
+<div class="glow"></div>
+
+<div class="topbar">
+  <a class="brand" href="index.html">Asset<span>Flow</span> ERP<small>documentation du projet</small></a>
+  <nav class="pagenav">
+    <a href="index.html" data-page="index">Accueil</a>
+    <a href="installation.html" data-page="installation">Installation</a>
+    <a href="usage.html" data-page="usage">Utilisation</a>
+    <a href="backup.html" data-page="backup">Sauvegarde</a>
+    <a class="gh" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</div>
+
+<div class="layout no-side">
+  <main>
+
+    <section class="in" style="border-bottom:none; margin-bottom:0;">
+      <span class="eyebrow">Projet de fin d'année — Ingénierie Informatique</span>
+      <h1>Asset<span>Flow</span> ERP</h1>
+      <p class="lead">
+        AssetFlow ERP est une personnalisation d'<a href="https://www.espocrm.com/" target="_blank" rel="noopener">EspoCRM</a>
+        qui centralise l'inventaire informatique, les logiciels/licences et deux circuits de demandes internes (IT et RH),
+        avec génération automatique de documents PDF et notifications par courriel.
+      </p>
+      <div class="callout ok"><b>À propos de ce dépôt</b> — Ce dépôt contient les personnalisations (entités, formules,
+        rôles, modèles PDF, service de notification) développées par-dessus EspoCRM. Il ne contient aucune donnée réelle
+        d'entreprise : ni comptes, ni inventaire, ni configuration réseau. Cette documentation explique comment installer
+        et faire tourner le projet en local sur votre propre machine.</div>
+
+      <h3>Ce que fait l'application</h3>
+      <ul class="checklist">
+        <li>Inventaire du matériel (équipements, ordinateurs) classé par catégories</li>
+        <li>Suivi des logiciels et licences, avec calcul automatique des échéances</li>
+        <li>Demandes IT (matériel) et demandes RH (congés, administratif, recrutement, santé) avec circuit de validation</li>
+        <li>Génération de documents PDF à partir de modèles, remplis avec les données de la demande</li>
+        <li>Mise à disposition de matériel avec document de remise généré automatiquement</li>
+        <li>Droits d'accès par rôle (Employé, Responsable IT, Responsable RH, Administrateur) et par équipe</li>
+      </ul>
+
+      <h3>Stack technique</h3>
+      <table>
+        <thead><tr><th>Composant</th><th>Rôle</th></tr></thead>
+        <tbody>
+          <tr><td><code>EspoCRM 9.2.0</code></td><td>Socle applicatif (auth, rôles, équipes, PDF, notifications, historique)</td></tr>
+          <tr><td><code>PHP 8.2+</code></td><td>Exécute le code d'Espo et l'API personnalisée</td></tr>
+          <tr><td><code>MariaDB / MySQL</code></td><td>Stocke toutes les données</td></tr>
+          <tr><td><code>Apache</code> (ou IIS)</td><td>Sert l'application aux navigateurs</td></tr>
+          <tr><td><code>Django</code> (optionnel)</td><td>Petit service qui reçoit un webhook et envoie une notification RH par courriel</td></tr>
+        </tbody>
+      </table>
+
+      <div class="cardgrid">
+        <a class="card" href="installation.html">
+          <span class="eyebrow">Démarrer</span>
+          <h3>Installation →</h3>
+          <p>Prérequis, installation d'Espo, chargement des personnalisations AssetFlow, hébergement local avec XAMPP ou Docker.</p>
+        </a>
+        <a class="card" href="usage.html">
+          <span class="eyebrow">Découvrir</span>
+          <h3>Utilisation →</h3>
+          <p>Les rôles, les permissions et les entités de l'application, avec une démo interactive du menu selon le rôle.</p>
+        </a>
+        <a class="card" href="backup.html">
+          <span class="eyebrow">Exploiter</span>
+          <h3>Sauvegarde →</h3>
+          <p>Scripts d'exemple pour sauvegarder et restaurer la base de données et les fichiers de l'application.</p>
+        </a>
+      </div>
+
+      <div class="callout"><b>Licence / usage</b> — Projet réalisé dans un cadre pédagogique (PFA) sur la base d'EspoCRM,
+        logiciel open source. Adaptez les identifiants, mots de passe et noms d'entités par défaut avant tout usage
+        au-delà d'une démo locale.</div>
+    </section>
+
+  </main>
+</div>
+
+<footer>ASSETFLOW ERP — DOCUMENTATION DU PROJET</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

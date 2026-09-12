@@ -1,0 +1,104 @@
+{
+    "fields": {
+        "quantity": "Quantity",
+        "price": "Price",
+        "priceCurrency": "Price (Currency)",
+        "priceConverted": "Price (Converted)",
+        "status": "Status",
+        "cases": "Cases",
+        "category": "Category",
+        "typeCran": "Type Écran",
+        "typeSourie": "Type de connexion",
+        "typeDeDisque": "Type de disque",
+        "capacitDeStockage": "Capacité de stockage",
+        "typeDeCble": "Type de câble",
+        "capacit": "Capacité",
+        "typeDaccessoire": "Type d'accessoire",
+        "typeDadaptateur": "Type d'adaptateur",
+        "type": "Type",
+        "swt": "Type de switch"
+    },
+    "links": {
+        "cases": "Cases",
+        "category": "Category"
+    },
+    "labels": {
+        "Create CProduct": "Create Équipement"
+    },
+    "options": {
+        "status": {
+            "Assigned": "Assigned",
+            "Maintenance": "Maintenance",
+            "Retired": "Retired",
+            "Available": "Available",
+            "Not Available": "Not Available"
+        },
+        "typeCran": {
+            "": "",
+            "Petite": "Petite",
+            "Grand": "Grand"
+        },
+        "typeSourie": {
+            "": "",
+            "sans fil": "sans fil",
+            "avec fil": "avec fil"
+        },
+        "typeDeDisque": {
+            "": "",
+            "SSD": "SSD",
+            "HDD": "HDD",
+            "MVme": "MVme"
+        },
+        "capacitDeStockage": {
+            "": "",
+            "128 GO": "128 GO",
+            "256 GO": "256 GO",
+            "512 GO": "512 GO",
+            "1T GO": "1T GO",
+            "2T GO": "2T GO",
+            "4T GO": "4T GO"
+        },
+        "typeDeCble": {
+            "Network Cable": "Network Cable",
+            "HDMI Cable": "HDMI Cable",
+            "Power Cable": "Power Cable",
+            "Single-Mode Fiber Optic Cable": "Single-Mode Fiber Optic Cable",
+            "Display Cable": "Display Cable",
+            "Port Display to Mini Display Cable": "Port Display to Mini Display Cable",
+            "Display to Mini Display Cable": "Display to Mini Display Cable",
+            "HDMI to Mini Display Adapter": "HDMI to Mini Display Adapter",
+            "HDMI to Display Adapter": "HDMI to Display Adapter"
+        },
+        "capacit": {
+            "": "",
+            "4 GO": "4 GO",
+            "8 GO": "8 GO",
+            "16 GO": "16 GO",
+            "32 GO": "32 GO",
+            "64 GO": "64 GO",
+            "96 GO": "96 GO",
+            "128 GO": "128 GO",
+            "256 GO": "256 GO"
+        },
+        "typeDaccessoire": {
+            "": "",
+            "Casque": "Casque",
+            "Tapis sourie": "Tapis sourie",
+            "Web cam": "Web cam"
+        },
+        "typeDadaptateur": {
+            "": "",
+            "HDMI to Display": "HDMI to Display",
+            "HDMI to Mini Display": "HDMI to Mini Display",
+            "Display to Mini Display": "Display to Mini Display"
+        },
+        "swt": {
+            "Switch": "Switch",
+            "Mini Switch": "Mini Switch",
+            "Switch 4P": "Switch 4P",
+            "Switch 48P": "Switch 48P",
+            "Switch 24P": "Switch 24P",
+            "Switch 8P": "Switch 8P"
+        }
+    }
+}

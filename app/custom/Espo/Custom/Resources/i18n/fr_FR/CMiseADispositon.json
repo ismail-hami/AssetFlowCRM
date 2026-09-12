@@ -1,0 +1,70 @@
+{
+    "fields": {
+        "marque": "Marque",
+        "ram": "RAM",
+        "model": "Modèle",
+        "numeroDeSerie": "Numéro de série",
+        "systemeDexploitation": "Système d'exploitation",
+        "wS": "WS",
+        "processeur": "Processeur",
+        "carteGraphique": "Carte graphique",
+        "disqueDur1": "Disque dur 1",
+        "disqueDur2": "Disque dur 2",
+        "accessoire1": "Accessoire 1",
+        "accessoire2": "Accessoire 2",
+        "accessoire3": "Accessoire 3",
+        "name": "Nom complet",
+        "gender": "Genre",
+        "valeurDecran": "Valeur de l'écran",
+        "valeurDordinateur": "Valeur de l'ordinateur",
+        "valeurDuCasque": "Valeur du casque"
+    },
+    "links": [],
+    "labels": {
+        "Create CMiseADispositon": "Créer une Mise à disposition",
+        "Overview": "Coordonnées et informations"
+    },
+    "options": {
+        "marque": {
+            "": "",
+            "ASUS": "ASUS",
+            "MSI": "MSI",
+            "GIGABYTE": "GIGABYTE",
+            "DELL": "DELL",
+            "hp": "HP",
+            "LENOVO": "LENOVO",
+            "HP": "HP"
+        },
+        "ram": {
+            "4GO": "4GO",
+            "8GO": "8GO",
+            "16GO": "16GO",
+            "32GO": "32GO",
+            "64GO": "64GO"
+        },
+        "systemeDexploitation": {
+            "": "",
+            "Windows 11": "Windows 11",
+            "Other": "Autre"
+        },
+        "disqueDur1": {
+            "": "",
+            "128GO": "128GO",
+            "256GO": "256GO",
+            "512GO": "512GO",
+            "1T": "1T"
+        },
+        "disqueDur2": {
+            "": "",
+            "128GO": "128GO",
+            "256GO": "256GO",
+            "512GO": "512GO",
+            "1T": "1T"
+        },
+        "gender": {
+            "": "",
+            "Mr": "Mr",
+            "Mme": "Mme"
+        }
+    }
+}

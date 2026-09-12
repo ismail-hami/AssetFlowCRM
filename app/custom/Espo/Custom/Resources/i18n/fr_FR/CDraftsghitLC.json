@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "license": "Licence",
+        "seats": "Sièges",
+        "expires": "Expire le",
+        "mtnExpires": "Expiration de maintenance",
+        "reactivationDate": "Date de réactivation"
+    },
+    "links": [],
+    "labels": {
+        "Create CDraftsghitLC": "Ajouter",
+        "Overview": "Coordonnées et informations"
+    }
+}

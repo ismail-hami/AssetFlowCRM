@@ -1,0 +1,23 @@
+# Secrets
+.env
+*.env
+config.php
+
+# Python / Django
+__pycache__/
+*.pyc
+venv/
+env/
+*.sqlite3
+db.sqlite3
+
+# EspoCRM core dependencies (réinstallables)
+vendor/
+node_modules/
+client/lib/
+
+# EspoCRM runtime data
+data/upload/
+data/cache/
+data/tmp/
+data/logs/

@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "if (cRequestType == 'Product Request') {\r\n    entity\\addLinkMultipleId('teams', '6a562b0bdf1f18693');\r\n}\r\nif (cRequestType == 'Salary Advance' || cRequestType == 'Leave Request' || cRequestType == 'Other') {\r\n    entity\\addLinkMultipleId('teams', '6a562b47ce8bf9b86');\r\n}"
+}

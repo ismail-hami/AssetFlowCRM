@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Utilisation — AssetFlow ERP</title>
+<meta name="description" content="Rôles, permissions et entités d'AssetFlow ERP, avec une démo interactive du menu selon le rôle connecté.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="usage">
+
+<div id="progress"></div>
+<div class="bg-grid"></div>
+<div class="glow"></div>
+
+<div class="topbar">
+  <a class="brand" href="index.html">Asset<span>Flow</span> ERP<small>documentation du projet</small></a>
+  <button id="navtoggle" aria-label="Ouvrir le menu">Menu</button>
+  <nav class="pagenav">
+    <a href="index.html" data-page="index">Accueil</a>
+    <a href="installation.html" data-page="installation">Installation</a>
+    <a href="usage.html" data-page="usage">Utilisation</a>
+    <a href="backup.html" data-page="backup">Sauvegarde</a>
+    <a class="gh" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+  </nav>
+</div>
+
+<div class="layout">
+  <nav class="side" id="sidenav">
+    <div class="grp">
+      <div class="grp-title">COMPTES</div>
+      <a href="#connexion">Connexion &amp; comptes</a>
+      <a href="#roles">Rôles &amp; permissions</a>
+    </div>
+    <div class="grp">
+      <div class="grp-title">DONNÉES</div>
+      <a href="#entites">Les entités</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="connexion">
+      <span class="eyebrow">Fonctionnement</span>
+      <h1>Rôles, permissions et <span>entités</span></h1>
+      <p class="lead">
+        AssetFlow repose sur le système de comptes, rôles et équipes natif d'Espo : chaque personne a un compte
+        individuel — pas de compte partagé — et voit uniquement les modules autorisés par son rôle.
+      </p>
+      <ol class="steps">
+        <li><h4>Se connecter</h4><p>Ouvrir l'adresse de l'application, saisir son identifiant et son mot de passe.</p></li>
+        <li><h4>Changer le mot de passe temporaire</h4><p>À la première connexion, remplacer le mot de passe fourni par l'administrateur.</p></li>
+        <li><h4>Retrouver son espace</h4><p>Le menu affiche uniquement les modules autorisés par le rôle du compte.</p></li>
+      </ol>
+
+      <h3>Comptes de démonstration</h3>
+      <p class="lead" style="margin-top:0;">Pour essayer l'application sans créer de compte, trois identifiants de test sont disponibles — un par rôle principal.</p>
+      <table>
+        <thead><tr><th>Rôle</th><th>Identifiant</th><th>Mot de passe</th></tr></thead>
+        <tbody>
+          <tr><td>Employé</td><td><code>Employee.Employe</code></td><td><code>#empemp123</code></td></tr>
+          <tr><td>Responsable RH</td><td><code>rh.rh</code></td><td><code>#rhrh123</code></td></tr>
+          <tr><td>Responsable IT</td><td><code>it.it</code></td><td><code>#itit123</code></td></tr>
+        </tbody>
+      </table>
+      <div class="callout"><b>Aller plus loin</b> — pour tester d'autres cas (par exemple un deuxième employé, ou le rôle Administrateur), créez un compte directement depuis la base ou demandez un accès à l'administrateur ; ces trois comptes couvrent seulement un exemple par rôle.</div>
+    </section>
+
+    <section id="roles">
+      <span class="eyebrow">Fonctionnement</span>
+      <h2>Ce que chaque rôle peut faire</h2>
+      <div class="rolegrid">
+        <div><span class="id">EMPLOYEE</span><h4>Employé</h4>
+          <ul><li>Créer une demande IT ou RH</li><li>Suivre l'état de ses propres demandes</li><li>Ne voit ni l'inventaire ni les comptes des autres</li></ul>
+        </div>
+        <div><span class="id">IT MANAGER</span><h4>Responsable IT</h4>
+          <ul><li>Gérer équipements, ordinateurs, logiciels et licences</li><li>Traiter les demandes IT</li><li>Enregistrer une mise à disposition</li><li>Actualiser les statuts de licence</li></ul>
+        </div>
+        <div><span class="id">HR MANAGER</span><h4>Responsable RH</h4>
+          <ul><li>Traiter les demandes RH (accepter / refuser / reporter)</li><li>Générer le document PDF correspondant</li><li>Ne voit pas les modules techniques</li></ul>
+        </div>
+        <div><span class="id">ADMIN</span><h4>Administrateur</h4>
+          <ul><li>Créer et désactiver des comptes</li><li>Configurer rôles, équipes et permissions</li><li>Accès complet à tous les modules</li></ul>
+        </div>
+      </div>
+
+      <h3>Essayer : le menu change selon le rôle</h3>
+      <p class="lead" style="margin-top:0;">Clique sur un rôle pour voir le menu tel qu'il apparaît une fois connecté.</p>
+      <div class="demo">
+        <div class="demo-head">
+          <span class="lbl">Se connecter en tant que</span>
+          <button class="rolebtn active" data-role="employee">Employé</button>
+          <button class="rolebtn" data-role="it">Resp. IT</button>
+          <button class="rolebtn" data-role="hr">Resp. RH</button>
+          <button class="rolebtn" data-role="admin">Admin</button>
+        </div>
+        <div class="demo-body">
+          <div class="demo-menu" id="demoMenu">
+            <div class="item" data-base>Accueil</div>
+            <div class="item" data-base>Flux global</div>
+            <div class="item" data-base>Demande RH</div>
+            <div class="item" data-base>Demande IT</div>
+            <div class="item tech" data-tech>Mise à disposition</div>
+            <div class="item tech" data-tech>Équipements</div>
+            <div class="item tech" data-tech>Logiciels</div>
+            <div class="item tech" data-tech>Ordinateurs</div>
+            <div class="item tech" data-tech>Licences SW</div>
+            <div class="item tech" data-tech>Catégories</div>
+            <div class="item tech" data-admin>Administration</div>
+          </div>
+          <div class="demo-note" id="demoNote">
+            <b>Employé :</b> ne voit que ses propres demandes RH et IT. Aucun module technique dans le menu.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="entites">
+      <span class="eyebrow">Modélisation</span>
+      <h2>Les entités de l'application</h2>
+      <p class="lead">Six entités personnalisées, plus les entités natives d'Espo. Clique sur une entité pour voir ses champs.</p>
+
+      <div class="accordion" id="accordion">
+        <div class="acc-item open">
+          <button class="acc-head"><span><span class="name">CProduct</span>Catalogue du matériel générique</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>name, type, categoryId</li><li>quantity, status</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>Catégories : câbles, matériel informatique, périphériques, mobilier</li><li>Géré par le responsable IT / admin</li></ul></div>
+          </div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head"><span><span class="name">CSoftware</span>Abonnements et licences logicielles</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>name, type, quantity, purchasePrice</li><li>licenseExpiry, daysRemaining, licenseStatus</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>Statuts : actif, bientôt expiré, expiré, sans échéance</li><li>Recalcul via le bouton "Refresh Licenses"</li></ul></div>
+          </div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head"><span><span class="name">Computer</span>Parc d'ordinateurs</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>computerName, serialNumber, assetType</li><li>condition, status</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>Distinct du stock générique (CProduct)</li><li>Lié aux licences logicielles et aux clés Windows</li></ul></div>
+          </div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head"><span><span class="name">CITRequest</span>Demande d'équipement adressée à l'IT</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>fullName, position, managerFullName</li><li>productName, priority, status</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>Statuts : pending, Processing, accepted, rejected</li><li>Créée par l'employé, décidée par le resp. IT</li></ul></div>
+          </div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head"><span><span class="name">CHRRequest</span>Demande adressée aux ressources humaines</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>requestType, subRequestType, department</li><li>startDate, endDate, decision, pdfTemplateId</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>4 familles : congés, administratif, recrutement, santé</li><li>Le formulaire s'adapte au type choisi</li></ul></div>
+          </div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head"><span><span class="name">MiseADisposition</span>Remise de matériel à un collaborateur</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>fullName, brand, model, ram, serialNumber</li><li>processor, accessories</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>Produit un PDF de remise de matériel</li><li>Réservée aux profils techniques</li></ul></div>
+          </div></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head"><span><span class="name">User / Role / Team</span>Comptes et permissions (natifs Espo)</span><span class="chev">›</span></button>
+          <div class="acc-panel"><div class="acc-inner">
+            <div><b>CHAMPS CLÉS</b><ul><li>username, isActive, roles, teams</li></ul></div>
+            <div><b>DÉTAILS</b><ul><li>Le rôle définit les actions possibles, l'équipe le périmètre partagé</li><li>Géré uniquement par l'administrateur</li></ul></div>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>ASSETFLOW ERP — DOCUMENTATION DU PROJET</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

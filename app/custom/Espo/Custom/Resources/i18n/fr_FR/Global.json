@@ -1,0 +1,12 @@
+{
+    "scopeNames": {
+        "CHRRequest": "Demande RH",
+        "CITRequest": "Demande IT"
+    },
+    "scopeNamesPlural": {
+        "CHRRequest": "Demande RH",
+        "CITRequest": "Demande IT",
+        "CMiseADispositon": "Mise a dispositon",
+        "CDraftsghitLC": "Draftsghit Licenses"
+    }
+}

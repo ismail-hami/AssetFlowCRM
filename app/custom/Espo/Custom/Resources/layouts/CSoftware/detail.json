@@ -1,0 +1,81 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "lastOrderDate"
+                }
+            ],
+            [
+                {
+                    "name": "vendor"
+                },
+                {
+                    "name": "department"
+                }
+            ],
+            [
+                {
+                    "name": "purchasePrice"
+                },
+                {
+                    "name": "quantity"
+                }
+            ],
+            [
+                {
+                    "name": "totalValue"
+                }
+            ],
+            [
+                {
+                    "name": "serialNumber"
+                },
+                {
+                    "name": "licenseExpiry"
+                }
+            ],
+            [
+                {
+                    "name": "licenseQuantity"
+                },
+                {
+                    "name": "quantityUsed"
+                }
+            ],
+            [
+                {
+                    "name": "quantityRemaining"
+                }
+            ],
+            [
+                {
+                    "name": "daysRemaining"
+                }
+            ],
+            [
+                {
+                    "name": "licenseStatus"
+                }
+            ],
+            [
+                {
+                    "name": "streamUpdatedAt"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]
